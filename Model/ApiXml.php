@@ -2167,165 +2167,166 @@ class ApiXml extends AppModel {
 
 
 
-        if ($data['product_id'] == '24'): $fee_print = ($data['ph_reqbook'] == 'Y') ? 50000 : 0;
-        endif; //lanjut dari sini
-        // if($data['product_id']=='21'): $cashless=($data['CASHLESS']=='Y')?35000:0; endif;
-
-        $_tmp = $this->updateQuotation(array(
-            'QUOTE_ID' => $id_quotation,
-            'QUOTE_PRIMARY_FUND_TYPE_ID' => 0,
-            'QUOTE_PREMIUM_LIFESPAN' => (isset($data['QUOTE_PREMIUM_LIFESPAN'])) ? $data['QUOTE_PREMIUM_LIFESPAN'] : 0,
-            'QUOTE_PREMIUM_MODE' => $ses_premi['mode'],
-            'QUOTE_STAMP_FEE' => $product['product_stamp_fee'],
-            'QUOTE_REGULAR_FEE' => $product['product_regular_fee'],
-            'QUOTE_SINGLE_PREMIUM' => ( $ses_premi['mode'] == 0) ? $premium : 0,
-            'QUOTE_REGULAR_PREMIUM' => ( $ses_premi['mode'] != 0) ? $premium : 0,
-            'QUOTE_INITIAL_FEE' => ($premium < 100000000) ? round(($product['product_initial_fee'] * 0.005), 0) : floatval($product['product_initial_pct']),
-            //'QUOTE_PAPER_PRINT_FEE'=>($data['product_id']!='5')?$fee_print:0,
-            'QUOTE_PAPER_PRINT_FEE' => ($data['ph_reqbook'] != 'N') ? 50000 : 0,
-            'QUOTE_CASHLESS_FEE' => ($data['product_id'] == '21') ? $cashless : 0, //ditambah ,
-            'QUOTE_PREMIUM_DURATION' => $product['product_premium_duration_from'] //penambahan baru sam
-        ));
-
-        $data_coverage = array(
-            'QUOTE_ID' => $id_quotation,
-            'COVERAGE_TYPE_ID' => $product['coverage_type_id'], //24
-            'SUM_INSURED' => $coverage[0]['CoverageSumInsuredDigital'],
-            'DURATION_DAYS' => 0,
-            'PREMIUM_AMOUNT' => round($premium, 0),
-            'DURATION' => 1,
-        );
-        /*
-          $data_coverage2=array(
-          'QUOTE_ID'=>$id_quotation,
-          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
-          'SUM_INSURED'=>$coverage[29]['CoverageSumInsuredDigital'],
-          'DURATION_DAYS'=>365,
-          'PREMIUM_AMOUNT'=>round($premium,0),
-          'DURATION'=>1,
-
-          );
-
-          $data_coverage3=array(
-          'QUOTE_ID'=>$id_quotation,
-          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
-          'SUM_INSURED'=>$coverage[30]['CoverageSumInsuredDigital'],
-          'DURATION_DAYS'=>365,
-          'PREMIUM_AMOUNT'=>round($premium,0),
-          'DURATION'=>1,
-
-          );
-
-          $data_coverage4=array(
-          'QUOTE_ID'=>$id_quotation,
-          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
-          'SUM_INSURED'=>$coverage[31]['CoverageSumInsuredDigital'],
-          'DURATION_DAYS'=>365,
-          'PREMIUM_AMOUNT'=>round($premium,0),
-          'DURATION'=>1,
-
-          );
-
-          $data_coverage5=array(
-          'QUOTE_ID'=>$id_quotation,
-          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
-          'SUM_INSURED'=>$coverage[69]['CoverageSumInsuredDigital'],
-          'DURATION_DAYS'=>365,
-          'PREMIUM_AMOUNT'=>round($premium,0),
-          'DURATION'=>1,
-
-          );
-
-          $data_coverage6=array(
-          'QUOTE_ID'=>$id_quotation,
-          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
-          'SUM_INSURED'=>$coverage[77]['CoverageSumInsuredDigital'],
-          'DURATION_DAYS'=>365,
-          'PREMIUM_AMOUNT'=>round($premium,0),
-          'DURATION'=>1,
-
-          );
-         */
-
-        if ($data['ph_pemilik'] == 'Y') {
-            $id_insured = $this->saveInsuredID($id_quotation, $id_prospect);
-            $data_coverage['QUOTE_INSURED_ID'] = $id_insured;
-            $id_coverage = $this->saveCoverageID($data_coverage);
-            /*
-              $data_coverage2['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage2=$this->saveCoverageID($data_coverage2);
-              $data_coverage3['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage3=$this->saveCoverageID($data_coverage3);
-              $data_coverage4['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage4=$this->saveCoverageID($data_coverage4);
-              $data_coverage5['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage5=$this->saveCoverageID($data_coverage5);
-              $data_coverage6['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage6=$this->saveCoverageID($data_coverage6);
-             */
-        } else {
-            $id_insured = $this->saveInsuredID($id_quotation, $id_prospect, $data['insured_relasi']);
-            $data_coverage['QUOTE_INSURED_ID'] = $id_insured;
-            $id_coverage = $this->saveCoverageID($data_coverage);
-            /*
-              $data_coverage2['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage2=$this->saveCoverageID($data_coverage2);
-              $data_coverage3['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage3=$this->saveCoverageID($data_coverage3);
-              $data_coverage4['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage4=$this->saveCoverageID($data_coverage4);
-              $data_coverage5['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage5=$this->saveCoverageID($data_coverage5);
-              $data_coverage6['QUOTE_INSURED_ID']=$id_insured;
-              $id_coverage6=$this->saveCoverageID($data_coverage6);
-             */
-        }
-
-        //save Tertanggung
-        /* 	
-          $taData=CakeSession::read('Purchase.Tertanggung');
-          $i=0;
-          while($i<count($taData)){
-          if(($real_prospect['me']!='Y' && $taData[$i]['INSURED_RELATIONSHIP_ID']==1) || $taData[$i]['INSURED_RELATIONSHIP_ID']!=1) {
-          $idTAInsured=$this->saveInsuredID($id_quotation,$taData[$i]['ID_PROSPECT'],$taData[$i]['INSURED_RELATIONSHIP_ID']);
-          $data_coverage['QUOTE_INSURED_ID']=$idTAInsured;
-          $data_coverage['PREMIUM_AMOUNT']=((CakeSession::read('TertanggungTertua') != $taData[$i]['PROSPECT_DOB'] && $data['product_id'] == 21) ? 0 : round($this->getPremiumRate($data['COVERAGE_TYPE_ID'],$data['QUOTE_PREMIUM_MODE'],$taData[$i]['AGE'],$data['PROSPECT_GENDER'],isset($data['QUOTE_PREMIUM_LIFESPAN'])?$data['QUOTE_PREMIUM_LIFESPAN']:0,isset($data['QUOTE_DURATION_DAYS'])?$data['QUOTE_DURATION_DAYS']:0,$data['SUM_INSURED'],isset($data['QUOTE_DURATION_HOUR'])?$data['QUOTE_DURATION_HOUR']:0),0));
-          $id_coverageTA=$this->saveCoverageID($data_coverage);
-          CakeSession::write('Purchase.Tertanggung.'.$i.'.ID_INSURED',$idTAInsured);
-          CakeSession::write('Purchase.Tertanggung.'.$i.'.ID_COVERAGE',$id_coverageTA);
-          }
-          $i++;
-          }
-         */
-
-        /*
-          if($data['QUOTE_PREMIUM_MODE']!=0){
-          $totalpremi=$this->getQuoteByID($id_quotation,array('QuoteRegulerPremium'))['QuoteRegulerPremium'];
-          if ($data['product_id']=='21')
-          {
-          $totalpremi=round(CakeSession::read('PremiumJSK'),0);
-          }
-          } else {
-          $totalpremi=$this->getQuoteByID($id_quotation,array('QuoteSinglePremium'))['QuoteSinglePremium'];
-          }
-         */
-        //Req HARD_COPY
-        /* 			if($data['HARD_COPY']=='Y'){
-          $totalpremi=CakeSession::read('Purchase.premi.total_premi');
-          $totalpremi=$totalpremi+50000;
-          }
-         */
-
-
-
-        //$allTA=$this->getCoverageList($id_quotation,array('InsuredType','ProspectName','ProspectGender','ProspectDOB','PremiumAmount'));
-        //CakeSession::write('Purchase.allTA',$allTA);
-        //CakeSession::write('Purchase.premi.total_premi',$totalpremi);
-        CakeSession::write('Purchase.PROSPECT_ID', $id_prospect);
-        CakeSession::write('Purchase.QUOTE_ID', $id_quotation);
-        if ($data['product_id'] != '21') {
-            CakeSession::write('Purchase.ID_AH', $idAh);
-        }
+//        if ($data['product_id'] == '24'): $fee_print = ($data['ph_reqbook'] == 'Y') ? 50000 : 0;
+//        endif; //lanjut dari sini
+//        // if($data['product_id']=='21'): $cashless=($data['CASHLESS']=='Y')?35000:0; endif;
+//
+//        $_tmp = $this->updateQuotation(array(
+//            'QUOTE_ID' => $id_quotation,
+//            'QUOTE_PRIMARY_FUND_TYPE_ID' => 0,
+//            'QUOTE_PREMIUM_LIFESPAN' => (isset($data['QUOTE_PREMIUM_LIFESPAN'])) ? $data['QUOTE_PREMIUM_LIFESPAN'] : 0,
+//            'QUOTE_PREMIUM_MODE' => $ses_premi['mode'],
+//            'QUOTE_STAMP_FEE' => $product['product_stamp_fee'],
+//            'QUOTE_REGULAR_FEE' => $product['product_regular_fee'],
+//            'QUOTE_SINGLE_PREMIUM' => ( $ses_premi['mode'] == 0) ? $premium : 0,
+//            'QUOTE_REGULAR_PREMIUM' => ( $ses_premi['mode'] != 0) ? $premium : 0,
+//            'QUOTE_INITIAL_FEE' => ($premium < 100000000) ? round(($product['product_initial_fee'] * 0.005), 0) : floatval($product['product_initial_pct']),
+//            //'QUOTE_PAPER_PRINT_FEE'=>($data['product_id']!='5')?$fee_print:0,
+//            'QUOTE_PAPER_PRINT_FEE' => ($data['ph_reqbook'] != 'N') ? 50000 : 0,
+//            'QUOTE_CASHLESS_FEE' => ($data['product_id'] == '21') ? $cashless : 0, //ditambah ,
+//            'QUOTE_PREMIUM_DURATION' => $product['product_premium_duration_from'] //penambahan baru sam
+//        ));
+//
+//        $data_coverage = array(
+//            'QUOTE_ID' => $id_quotation,
+//            'COVERAGE_TYPE_ID' => $product['coverage_type_id'], //24
+//            'SUM_INSURED' => $coverage[0]['CoverageSumInsuredDigital'],
+//            'DURATION_DAYS' => 0,
+//            'PREMIUM_AMOUNT' => round($premium, 0),
+//            'DURATION' => 1,
+//        );
+//        /*
+//          $data_coverage2=array(
+//          'QUOTE_ID'=>$id_quotation,
+//          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
+//          'SUM_INSURED'=>$coverage[29]['CoverageSumInsuredDigital'],
+//          'DURATION_DAYS'=>365,
+//          'PREMIUM_AMOUNT'=>round($premium,0),
+//          'DURATION'=>1,
+//
+//          );
+//
+//          $data_coverage3=array(
+//          'QUOTE_ID'=>$id_quotation,
+//          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
+//          'SUM_INSURED'=>$coverage[30]['CoverageSumInsuredDigital'],
+//          'DURATION_DAYS'=>365,
+//          'PREMIUM_AMOUNT'=>round($premium,0),
+//          'DURATION'=>1,
+//
+//          );
+//
+//          $data_coverage4=array(
+//          'QUOTE_ID'=>$id_quotation,
+//          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
+//          'SUM_INSURED'=>$coverage[31]['CoverageSumInsuredDigital'],
+//          'DURATION_DAYS'=>365,
+//          'PREMIUM_AMOUNT'=>round($premium,0),
+//          'DURATION'=>1,
+//
+//          );
+//
+//          $data_coverage5=array(
+//          'QUOTE_ID'=>$id_quotation,
+//          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
+//          'SUM_INSURED'=>$coverage[69]['CoverageSumInsuredDigital'],
+//          'DURATION_DAYS'=>365,
+//          'PREMIUM_AMOUNT'=>round($premium,0),
+//          'DURATION'=>1,
+//
+//          );
+//
+//          $data_coverage6=array(
+//          'QUOTE_ID'=>$id_quotation,
+//          'COVERAGE_TYPE_ID'=>$product[0]['coverage_type_id'],//24
+//          'SUM_INSURED'=>$coverage[77]['CoverageSumInsuredDigital'],
+//          'DURATION_DAYS'=>365,
+//          'PREMIUM_AMOUNT'=>round($premium,0),
+//          'DURATION'=>1,
+//
+//          );
+//         */
+//
+//        if ($data['ph_pemilik'] == 'Y') {
+//            $id_insured = $this->saveInsuredID($id_quotation, $id_prospect);
+//            $data_coverage['QUOTE_INSURED_ID'] = $id_insured;
+//            $id_coverage = $this->saveCoverageID($data_coverage);
+//            /*
+//              $data_coverage2['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage2=$this->saveCoverageID($data_coverage2);
+//              $data_coverage3['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage3=$this->saveCoverageID($data_coverage3);
+//              $data_coverage4['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage4=$this->saveCoverageID($data_coverage4);
+//              $data_coverage5['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage5=$this->saveCoverageID($data_coverage5);
+//              $data_coverage6['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage6=$this->saveCoverageID($data_coverage6);
+//             */
+//        } else {
+//            $id_insured = $this->saveInsuredID($id_quotation, $id_prospect, $data['insured_relasi']);
+//            $data_coverage['QUOTE_INSURED_ID'] = $id_insured;
+//            $id_coverage = $this->saveCoverageID($data_coverage);
+//            /*
+//              $data_coverage2['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage2=$this->saveCoverageID($data_coverage2);
+//              $data_coverage3['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage3=$this->saveCoverageID($data_coverage3);
+//              $data_coverage4['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage4=$this->saveCoverageID($data_coverage4);
+//              $data_coverage5['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage5=$this->saveCoverageID($data_coverage5);
+//              $data_coverage6['QUOTE_INSURED_ID']=$id_insured;
+//              $id_coverage6=$this->saveCoverageID($data_coverage6);
+//             */
+//        }
+//
+//        //save Tertanggung
+//        /* 	
+//          $taData=CakeSession::read('Purchase.Tertanggung');
+//          $i=0;
+//          while($i<count($taData)){
+//          if(($real_prospect['me']!='Y' && $taData[$i]['INSURED_RELATIONSHIP_ID']==1) || $taData[$i]['INSURED_RELATIONSHIP_ID']!=1) {
+//          $idTAInsured=$this->saveInsuredID($id_quotation,$taData[$i]['ID_PROSPECT'],$taData[$i]['INSURED_RELATIONSHIP_ID']);
+//          $data_coverage['QUOTE_INSURED_ID']=$idTAInsured;
+//          $data_coverage['PREMIUM_AMOUNT']=((CakeSession::read('TertanggungTertua') != $taData[$i]['PROSPECT_DOB'] && $data['product_id'] == 21) ? 0 : round($this->getPremiumRate($data['COVERAGE_TYPE_ID'],$data['QUOTE_PREMIUM_MODE'],$taData[$i]['AGE'],$data['PROSPECT_GENDER'],isset($data['QUOTE_PREMIUM_LIFESPAN'])?$data['QUOTE_PREMIUM_LIFESPAN']:0,isset($data['QUOTE_DURATION_DAYS'])?$data['QUOTE_DURATION_DAYS']:0,$data['SUM_INSURED'],isset($data['QUOTE_DURATION_HOUR'])?$data['QUOTE_DURATION_HOUR']:0),0));
+//          $id_coverageTA=$this->saveCoverageID($data_coverage);
+//          CakeSession::write('Purchase.Tertanggung.'.$i.'.ID_INSURED',$idTAInsured);
+//          CakeSession::write('Purchase.Tertanggung.'.$i.'.ID_COVERAGE',$id_coverageTA);
+//          }
+//          $i++;
+//          }
+//         */
+//
+//        /*
+//          if($data['QUOTE_PREMIUM_MODE']!=0){
+//          $totalpremi=$this->getQuoteByID($id_quotation,array('QuoteRegulerPremium'))['QuoteRegulerPremium'];
+//          if ($data['product_id']=='21')
+//          {
+//          $totalpremi=round(CakeSession::read('PremiumJSK'),0);
+//          }
+//          } else {
+//          $totalpremi=$this->getQuoteByID($id_quotation,array('QuoteSinglePremium'))['QuoteSinglePremium'];
+//          }
+//         */
+//        //Req HARD_COPY
+//        /* 			if($data['HARD_COPY']=='Y'){
+//          $totalpremi=CakeSession::read('Purchase.premi.total_premi');
+//          $totalpremi=$totalpremi+50000;
+//          }
+//         */
+//
+//
+//
+//        //$allTA=$this->getCoverageList($id_quotation,array('InsuredType','ProspectName','ProspectGender','ProspectDOB','PremiumAmount'));
+//        //CakeSession::write('Purchase.allTA',$allTA);
+//        //CakeSession::write('Purchase.premi.total_premi',$totalpremi);
+//        CakeSession::write('Purchase.PROSPECT_ID', $id_prospect);
+//        CakeSession::write('Purchase.QUOTE_ID', $id_quotation);
+//        if ($data['product_id'] != '21') {
+//            CakeSession::write('Purchase.ID_AH', $idAh);
+//        }
+        
     }
 
 // end store jmk

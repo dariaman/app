@@ -395,11 +395,11 @@ class FrontController extends AppController {
         $this->autoRender = false;
         $this->layout = "ajax";
         if ($this->request->is('ajax') && $this->Session->check('Purchase.premi')) {
-            $email = $this->request->query['email'];
-            $name = $this->request->query['name'];
-            $data = $this->Session->read('Purchase.step1');
-            $id_prospect = $this->ApiXml->saveProspect($email, $name, $data['PROSPECT_DOB'], $data['PROSPECT_GENDER']);
-            if (is_numeric($id_prospect))
+//            $email = $this->request->query['email'];
+//            $name = $this->request->query['name'];
+//            $data = $this->Session->read('Purchase.step1');
+//            $id_prospect = $this->ApiXml->saveProspect($email, $name, $data['PROSPECT_DOB'], $data['PROSPECT_GENDER']);
+//            if (is_numeric($id_prospect))
                 echo "1";
         } else
             throw new NotFoundException('Could not find that page');
@@ -1182,7 +1182,7 @@ class FrontController extends AppController {
                                 $step1_sess['COVERAGE_TYPE_ID'] = 15;
                             }
                         }
-                        $_tmp = $this->ApiXml->storeNonUnitLink($step1_sess, $sess);
+//                        $_tmp = $this->ApiXml->storeNonUnitLink($step1_sess, $sess);
                     }
 
                     $this->Session->write('Purchase.step2', $sess);

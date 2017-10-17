@@ -1123,10 +1123,10 @@ class FrontController extends AppController {
         $this->autoRender = false;
         $this->layout = "ajax";
         if ($this->request->is('ajax') && $this->Session->check('Purchase.premi')) {
-            $email = $this->request->query['email'];
-            $name = $this->request->query['name'];
-            $data = $this->Session->read('Purchase.step1');
-            $id_prospect = $this->ApiXml->saveProspect($email, $name, $data['PROSPECT_DOB'], $data['PROSPECT_GENDER']);
+//            $email = $this->request->query['email'];
+//            $name = $this->request->query['name'];
+//            $data = $this->Session->read('Purchase.step1');
+//            $id_prospect = $this->ApiXml->saveProspect($email, $name, $data['PROSPECT_DOB'], $data['PROSPECT_GENDER']);
 
 
 
@@ -1144,10 +1144,10 @@ class FrontController extends AppController {
               } */
 
 
-            if (is_numeric($id_prospect))
+//            if (is_numeric($id_prospect))
                 echo "1";
-            else
-                echo "0";
+//            else
+//                echo "0";
         } else
             throw new NotFoundException('Could not find that page');
     }
@@ -2370,7 +2370,7 @@ class FrontController extends AppController {
                         if (!isset($sess['me']))
                             $sess['me'] = 'Y';
                         //$this->Session->write('beetwen', 'xcv');
-                        if ($cat == 'unit-link') {
+                        if (($cat == 'unit-link')&& ($this->Session->read('Purchase.step1.product_id') != 24)) {
                             $_tmp = $this->ApiXml->storeUnitLink($this->Session->read('Purchase.step1'), $sess);
                         } else if ($this->Session->read('Purchase.step1.product_id') == '7') {  // jaga aman instan
                             $this->Session->write('Purchase.QUOTE_ID', time());
@@ -2443,11 +2443,12 @@ class FrontController extends AppController {
                                 }
                             }
 
-                            if ($step1_sess['product_id'] == 24) {
-                                $step1_sess['product_id'] = 24;
-                                $step1_sess['COVERAGE_TYPE_ID'] = 24;
-                                $_tmp = $this->ApiXml->storeJMK($step1_sess, $sess);
-                            } else
+//                            if ($step1_sess['product_id'] == 24) {
+//                                $step1_sess['product_id'] = 24;
+//                                $step1_sess['COVERAGE_TYPE_ID'] = 24;
+//                                $_tmp = $this->ApiXml->storeJMK($step1_sess, $sess);
+//                            } else
+                                if ($this->Session->read('Purchase.step1.product_id') != 24) 
                                 $_tmp = $this->ApiXml->storeNonUnitLink($step1_sess, $sess);
                         }
 
@@ -2601,12 +2602,12 @@ class FrontController extends AppController {
                         }
                     }
 
-                    if ($step1_sess['product_id'] == 24) {
-                        $step1_sess['product_id'] = 24;
-                        $step1_sess['COVERAGE_TYPE_ID'] = 24;
-                        $_tmp = $this->ApiXml->storeJMK($step1_sess, $sess);
-                    } else
-                        $_tmp = $this->ApiXml->storeNonUnitLink($step1_sess, $sess);
+//                    if ($step1_sess['product_id'] == 24) {
+//                        $step1_sess['product_id'] = 24;
+//                        $step1_sess['COVERAGE_TYPE_ID'] = 24;
+//                        $_tmp = $this->ApiXml->storeJMK($step1_sess, $sess);
+//                    } else
+//                        $_tmp = $this->ApiXml->storeNonUnitLink($step1_sess, $sess);
                 }
 
                 $this->Session->write('Purchase.step2', $sess);
@@ -5648,13 +5649,13 @@ class FrontController extends AppController {
             if ($IsExistCustomerBlackList == "True") {
                 echo '2';
             } else {
-                $id_prospect = $this->ApiXml->saveProspect($email, $name, $dob, $gender);
+//                $id_prospect = $this->ApiXml->saveProspect($email, $name, $dob, $gender);
 
-                if (is_numeric($id_prospect)) {
+//                if (is_numeric($id_prospect)) {
                     echo "1";
-                } else {
-                    echo "0";
-                }
+//                } else {
+//                    echo "0";
+//                }
             }
         } else {
             throw new NotFoundException('Could not find that page');
