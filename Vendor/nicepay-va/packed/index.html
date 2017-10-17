@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>NICEPAY - Secure Checkout</title>
+      <link rel='stylesheet' href='index.css' type='text/css'/>
+      <meta charset="UTF-8">
+    </head>
+    <body>
+    <div class="wrapper">
+      <div class="btn-group" id="form-selector">
+        <button type="button" class="btn btn-selector active" id="va-btn">Bank Transfer</button>
+        <button type="button" class="btn btn-selector" id="fix-btn">Register Fixed VA</button>
+        <button type="button" class="btn btn-selector" id="cust-btn">Retrieve VA Info</button>
+        <button type="button" class="btn btn-selector" id="deposit-btn">Check Deposit by Customer ID</button>
+        <button type="button" class="btn btn-selector" id="vad-btn">Check Deposit by VA</button>
+        <button type="button" class="btn btn-selector" id="cc-btn">Credit Card</button>
+      </div>
+      <div class="form" id="va-form">
+        <form action="checkout.php" method="post">
+        <h2 class="form-title">Bank Transfer</h2>
+        <h4>Total</h4>
+        <hr>
+        <h3>Rp. 12.000,00</h3>
+        <hr>
+         <select name="bankCd">
+            <option value="CENA">BCA</option>
+            <option value="BNIN">BNI</option>
+            <option value="BMRI">Mandiri</option>
+            <option value="HNBN">KEB Hana Bank</option>
+            <option value="BBBA">Permata</option>
+            <option value="IBBK">BII Maybank</option>
+            <!-- Not available yet, coming soon-->
+            <option disabled>──────────</option>
+            <option value="BNIA" disabled>CIMB Niaga</option>
+            <option value="BRIN" disabled>BRI</option>
+            <option value="BDMN" disabled>Danamon</option>
+          </select>
+          <input type="hidden" name="payMethod" value="02">
+        <button type="submit" class="btn-submit" id="va">Checkout</button>
+        </form>
+      </div>
+
+      <div class="form" id="cc-form">
+        <form action="checkout.php" method="post">
+        <h2 class="form-title">Credit Card</h2>
+        <h4>Total</h4>
+        <hr>
+        <h3>Rp. 1.000,00</h3>
+        <hr>
+        <input type="hidden" name="payMethod" value="01">
+        <button type="submit" class="btn-submit" id="cc">Checkout</button>
+      </form>
+      </div>
+
+    <div class="form" id="fix-form">
+        <form action="checkout.php" method="post">
+        <h2 class="form-title">Register Fixed Account</h2>
+        <h4>Register Customer ID</h4>
+        <hr>
+        <input name="customerId" type="text" class="input-std" id="customerId" placeholder="Customer ID" value="898989">
+        <input name="customerNm" type="text" class="input-std" id="customerId" placeholder="Customer Name" value="John Doe">
+        <hr>
+        <input type="hidden" name="payMethod" value="03">
+        <button type="submit" class="btn-submit" id="fix">Checkout</button>
+      </form>
+    </div>
+
+    <div class="form" id="cust-form">
+        <form action="checkout.php" method="post">
+        <h2 class="form-title">Retrieve VA Info</h2>
+        <h4>Retrieve VA Info</h4>
+        <hr>
+        <input name="customerId" type="text" class="input-std" id="customerId" placeholder="Customer ID" value="898989">
+        <hr>
+        <input type="hidden" name="payMethod" value="03">
+        <input type="hidden" name="check" value="yes">
+        <button type="submit" class="btn-submit" id="cust">Retrieve VA Info</button>
+      </form>
+    </div>
+
+    <div class="form" id="deposit-form">
+        <form action="checkout.php" method="post">
+        <h2 class="form-title">Check Deposit Fixed Account</h2>
+        <h4>Check Deposit List By Customer ID</h4>
+        <hr>
+        <input name="customerId" type="text" class="input-std" id="customerId" placeholder="Customer ID" value="000">
+        <input name="startDt" type="text" class="input-std" id="startDt" placeholder="Start Date (Ymd)" value="20160616">
+        <input name="endDt" type="text" class="input-std" id="endDt" placeholder="End Date (Ymd)" value="20160716">
+        <hr>
+        <input type="hidden" name="payMethod" value="03">
+        <input type="hidden" name="checkDeposit" value="yes">
+        <button type="submit" class="btn-submit" id="deposit">Check Deposit</button>
+      </form>
+    </div>
+
+    <div class="form" id="vad-form">
+        <form action="checkout.php" method="post">
+        <h2 class="form-title">Check Deposit Fixed Account</h2>
+        <h4>Check Deposit List by VA</h4>
+        <hr>
+        <input name="vacctNo" type="text" class="input-std" id="vacctNo" placeholder="Virtual Account Number" value="4477910000000050">
+        <input name="startDt" type="text" class="input-std" id="startDt" placeholder="Start Date (Ymd)" value="20160616">
+        <input name="endDt" type="text" class="input-std" id="endDt" placeholder="End Date (Ymd)" value="20160716">
+        <hr>
+        <input type="hidden" name="payMethod" value="03">
+        <input type="hidden" name="vaCheckDeposit" value="yes">
+        <button type="submit" class="btn-submit" id="vad">Check Deposit</button>
+      </form>
+    </div>
+
+  </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js?ver=3.5"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <body>
+</html>

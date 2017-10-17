@@ -1,0 +1,139 @@
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-12">
+    <small><i></i>Add alerts if form ok... success, else error.</i></small>
+    
+	<div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent. (If form ok!)</strong></div>	  
+    <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs. (If form error!)</strong></div>
+  </div>
+  
+  <form role="form" action="" method="post" >
+    <div class="col-lg-12">
+      <div class="well well-sm"><strong><i class="glyphicon glyphicon-ok form-control-feedback"></i> Required Field</strong></div>
+      <div class="form-group">
+        <label for="InputName">Nama Tertanggung</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Masukan Nama" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputTempat">Tempat Lahir</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputTempat" id="InputTempat" placeholder="Tempat Lahir" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputKelamin">Jenis Kelamin</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputKelamin" id="InputKelamin" placeholder="Jenis Kelamin" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputKawin">Status Perkawinan</label>
+        <div class="input-group">
+          <input type="email" class="form-control" id="InputKawin" name="InputKawin" placeholder="Kawin" required  >
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputLahir">Tanggal Lahir</label>
+        <div class="input-group">
+          <textarea name="InputLahir" id="InputLahir" class="form-control" rows="5" required></textarea>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputKTP">Nomor KTP</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputKTP" id="InputKTP" placeholder="Nomor KTP" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+
+      <div class="form-group">
+        <label for="InputTLP">Nomor Telp</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputTLP" id="InputTLP" placeholder="Nomor Telp" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+	 <div class="form-group">
+        <label for="InputAlamat">Alamat Rumah</label>
+        <div class="input-group">
+          <textarea name="InputAlamat" id="InputAlamat" class="form-control" rows="5" required></textarea>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputEmail">Alamat Email</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputEmail" id="InputEmail" placeholder="Alamat Email" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+     <div class="form-group">
+        <label for="InputKota">Kota</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputKota" id="InputKota" placeholder="Kota" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+     <div class="form-group">
+        <label for="InputPos">Kode Pos</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputPos" id="InputPos" placeholder="Kode Pos" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+     <div class="form-group">
+        <label for="InputNAW">Nama Ahli Waris</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputNAW" id="InputNAW" placeholder="Nama Ahli Waris" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      
+     <div class="form-group">
+        <label for="InputHAW">Hubungan Ahli Waris</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputHAW" id="InputHAW" placeholder="Hubungan Ahli Waris" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+     <div class="form-group">
+        <label for="InputTLAW">Tanggal Lahir Ahli Waris</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputTLAW" id="InputTLAW" placeholder="Tanggal Lahir Ahli Waris" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputAWEmail">Alamat Email</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputAWEmail" id="InputAWEmail" placeholder="Alamat Email" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      
+      <div class="form-group">
+        <label for="InputAWTLP">Nomor Telp</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputAWTLP" id="InputAWTLP" placeholder="Nomor Telp" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>  
+      <center><input type="submit" name="submit" id="submit" value="Daftar Sekarang" class="btn btn-info"></center>    
+
+    </div>
+    
+    
+    
+    
+    
+    
+  </form>
+
+  
+</div>
+
+</div>

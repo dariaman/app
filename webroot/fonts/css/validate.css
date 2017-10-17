@@ -1,0 +1,5 @@
+input.error,textarea.error,select.error  { border: 1px solid #F2635D; }
+input[type="radio"].error ,input[type="checkbox"].error {outline: 1px solid #F2635D;}
+span.error { color:   #F2635D;display:block!important } 
+span.agree-error { font-size:12px; margin-top:10px; color: #F2635D;display:block!important; font-weight:bold;  font-style: italic; } 
+div.error-message{color: #F2635D;}

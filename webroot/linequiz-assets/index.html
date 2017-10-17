@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jagadiri Line Quiz</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/datepicker.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="wrapper line-quiz">
+	<div class="header-container row textmedium">
+    <img src="images/jagadiri_icon_line_1.jpg" class="img-responsive">
+        <h1 class="winning-title">
+        	Selamat!<br /> Kamu adalah 1 dari 600<br /> pemenang <br />asuransi gratis dari JAGADIRI
+        </h1>
+    </div>
+    <div class="body-container">
+    	<div class="quiz-desc textmedium">
+        	<span class="textbold big-info">Kamu mendapatkan <span class="red">30 hari </span><br /> perlindungan kecelakaan dengan <br />
+        <span class="red">Jaga Aman Bersama</span></span>
+        
+                <ul class="prize-info textmedium">
+                    <li>Uang Pertanggungan meninggal dunia akibat kecelakaan :<br/> <span class="red">Rp 25 Juta</span></li>
+                    <li>Uang Pertanggungan perawatan rumah sakit akibat kecelakaan :<br/> <span class="red">Rp 2,5 Juta</span></li>
+                </ul>
+      
+         <hr>
+        	<span class="textmedium small-info">Isi data dibawah ini untuk konfirmasi data pemenang.</span><br/>
+          <p class="why-data"><small>Kenapa kami perlu data kamu</small><span class="q-mark">?</span></p>
+          <div id="why-data-content" class="why-data-content"><small>Data kamu dibutuhkan sebagai data acuan tim JAGADIRI untuk keperluan proses klaim uang pertanggungan.
+Harap mengisi data dengan benar sehingga kamu bisa menikmati perlindungan seutuhnya.</small></div>
+         <div class="form-container">
+             <form class="form-ahliwaris line-form" action="line2a.html">    
+            	<div class="form-group">
+                	<label for="nama">Nama<span class="red">*</span></label>
+                    <input class="form-control" id="namacustomer" type="text" required="required" />
+                </div> 
+                <div class="form-group">
+                	<label for="taggallahir">Tanggal Lahir<span class="red">*</span></label>
+<div class="input-group date form_date form_date_customer col-md-5">
+                    <input class="form-control" size="16" type="text" value="" required>
+                    
+					<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"> </span></span>
+                </div>                </div>
+                <div class="form-group">
+                <label for="jenisKelamin">Jenis Kelamin<span class="red">*</span></label><br />
+                	<label class="radio-inline jeniskelamin" >
+                      <input type="radio" required name="jeniskelamin_c" id="inlineRadio1" value="lakilaki"> Laki-laki
+                    </label>
+                    <label class="radio-inline jeniskelamin" >
+                      <input type="radio" name="jeniskelamin_c" id="inlineRadio2" value="perempuan"> Perempuan
+                    </label>
+                    
+                </div>
+                 
+                <div class="form-group">
+                	<label for="telp">No. Telepon<span class="red">*</span></label>
+                    <input class="form-control" id="telp" type="text" pattern="[0-9]+" name="telp" required="required"/>
+                </div> 
+                <div class="form-group">
+                	<label for="email">Email<span class="red">*</span></label>
+                    <input class="form-control" id="email" type="email"  name="email" required="required"/>
+                </div> 
+                <hr>
+                <h5>Data ahli waris</h5>
+                <div class="form-group">
+                	<label for="namaAhliwaris">Nama<span class="red">*</span></label>
+                    <input class="form-control" id="namaahliwaris" type="text" required="required"/>
+                </div> 
+                <div class="form-group">
+                	<label for="taggallahirAhliwaris">Tanggal Lahir<span class="red">*</span></label>
+<div class="input-group date form_date form_date_aw col-md-5">
+                    <input class="form-control" size="16" type="text" value="" required>
+                    
+					<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"> </span></span>
+                </div>                </div>
+                <div class="form-group">
+                <label for="jenisKelamin">Jenis Kelamin<span class="red">*</span></label><br />
+                	<label class="radio-inline jeniskelamin" >
+                      <input type="radio" required name="jeniskelamin_aw" id="inlineRadio1" value="lakilaki"> Laki-laki
+                    </label>
+                    <label class="radio-inline jeniskelamin">
+                      <input type="radio" name="jeniskelamin_aw" id="inlineRadio2" value="perempuan"> Perempuan
+                    </label>
+                    
+                </div>
+                 <div class="form-group">
+                	<label for="hubunganKeluarga">Hubungan<span class="red">*</span></label>
+                    <select required id="hubkeluarga" class="  form-control">
+                      <option value="">Pilih Hubungan</option>
+                    	<option value="Suami" id="hubsuami">Suami</option>
+                      <option value="Istri" id="hubistri">Istri</option>
+                        <option value="Anak" id="hubanak">Anak</option>
+                        <option value="Ayah" id="hubayah">Ayah</option>
+                        <option value="Ibu" id="hubibu">Ibu</option>
+                        <option value="Kakak" id="hubkakak">Kakak</option>
+                        <option value="Adik" id="hubadik">Adik</option>
+                    </select>
+                    
+                </div>
+                 <div class="form-group">
+                	<small>*Saya menyetujui bahwa data yang saya berikan di atas adalah benar.
+                    <br><br>
+                    *Data akan diproses sebagai data acuan untuk kebutuhan proses klaim.
+                    </small>
+                    
+                </div>
+                <button class="btn-green line-btn-kirim" >
+                    KIRIM
+                </button>
+                 
+            </form>
+        </div>
+        </div>
+ 
+   <div class="footer row">
+   	<div  class="col-xs-12 small-info">Hadiah Dipersembahkan oleh:</div>
+   	<div class="col-sm-6 col-xs-5  logo-cont  text-right">
+   	<img class="line-logo" alt="line logo" src="images/line-logo.png" /><br />
+       </div>
+       <div class="col-sm-6 col-xs-7 logo-cont text-left">
+   	<img class="line-logo" alt="line logo" src="images/logo_lp.png" /><br />
+       </div>
+   </div>
+
+</div>
+	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datepicker.min.js" charset="UTF-8"></script>
+<script>
+		$('.form_date_customer').datepicker({
+	    format: 'dd-mm-yyyy',
+	    autoclose: true,
+	    startView:2,
+	    endDate:"-21y",
+	    startDate:"-64y",
+    }).on('changeDate', function(e){
+	    $(this).blur();
+    }).on('show', function(e){
+      $(this).blur();
+    });
+    
+		$('.form_date_aw').datepicker({
+	    format: 'dd-mm-yyyy',
+	    autoclose: true,
+	    startView:2,
+	    endDate:"-0y",
+	    startDate:"-64y",
+    }).on('changeDate', function(e){
+	    $(this).blur();
+    }).on('show', function(e){
+      $(this).blur();
+    });
+    
+    $('.why-data').click(function() {
+      $('.why-data-content').toggle();
+    });
+</script>	
+</body>
+</html>
+

@@ -1,0 +1,436 @@
+2015-12-02 10:34:35 Cts: error id: 3378 name: MUMUN phone: 0812393343434 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:34:34 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('MUMUN', '0812393343434', 'DIREKOMENDASIKA...', '', '2015-12-02 10:3...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1372): ApiXml->pushCTS('MUMUN', '0812393343434', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:34:35 Cts: error id: 3379 name: KOKOM phone: 0856234234234 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:34:35 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('KOKOM', '0856234234234', 'DIREKOMENDASIKA...', '', '2015-12-02 10:3...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1377): ApiXml->pushCTS('KOKOM', '0856234234234', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:34:36 Cts: error id: 3380 name: MULKOM phone: 081315171920 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:34:36 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('MULKOM', '081315171920', 'DIREKOMENDASIKA...', '', '2015-12-02 10:3...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1382): ApiXml->pushCTS('MULKOM', '081315171920', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:42:07 Cts: error id: 3381 name: MUMUN phone: 0812393343434 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:42:07 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('MUMUN', '0812393343434', 'DIREKOMENDASIKA...', '', '2015-12-02 10:4...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1372): ApiXml->pushCTS('MUMUN', '0812393343434', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:42:08 Cts: error id: 3382 name: KOKOM phone: 0856234234234 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:42:08 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('KOKOM', '0856234234234', 'DIREKOMENDASIKA...', '', '2015-12-02 10:4...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1377): ApiXml->pushCTS('KOKOM', '0856234234234', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:42:08 Cts: error id: 3383 name: MULKOM phone: 081123232823 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:42:08 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('MULKOM', '081123232823', 'DIREKOMENDASIKA...', '', '2015-12-02 10:4...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1382): ApiXml->pushCTS('MULKOM', '081123232823', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:42:54 Cts: error id: 3384 name: MUMUN phone: 0812393343434 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:42:54 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('MUMUN', '0812393343434', 'DIREKOMENDASIKA...', '', '2015-12-02 10:4...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1372): ApiXml->pushCTS('MUMUN', '0812393343434', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:42:54 Cts: error id: 3385 name: KOKOM phone: 081213141516 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:42:54 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('KOKOM', '081213141516', 'DIREKOMENDASIKA...', '', '2015-12-02 10:4...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1377): ApiXml->pushCTS('KOKOM', '081213141516', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-02 10:42:55 Cts: error id: 3386 name: MULKOM phone: 081123232823 prod: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM timeLead: 2015-12-02 10:42:55 timeCall:  error: exception 'CakeException' with message '1' in /var/www/app/Model/ApiXml.php:192
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(211): ApiXml->CTSGrandSpot('MULKOM', '081123232823', 'DIREKOMENDASIKA...', '', '2015-12-02 10:4...', 'mulianto.wibowo...')
+#1 /var/www/app/Controller/FrontController.php(1382): ApiXml->pushCTS('MULKOM', '081123232823', 'DIREKOMENDASIKA...', 'mulianto.wibowo...')
+#2 [internal function]: FrontController->landing5()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-12-03 09:48:27 Cts: error id: 3420 name: asdd phone: 0897895756 prod: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM timeLead: 2015-12-03 09:47:57 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('asdd', '0897895756', 'DIREKOMENDASIKA...', '', '2015-12-03 09:4...', 'dsadas@adsd.cim')
+#5 /var/www/app/Controller/FrontController.php(1372): ApiXml->pushCTS('asdd', '0897895756', 'DIREKOMENDASIKA...', 'dsadas@adsd.cim')
+#6 [internal function]: FrontController->landing5()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-03 09:48:57 Cts: error id: 3421 name: asda phone: 0896785674 prod: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM timeLead: 2015-12-03 09:48:27 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('asda', '0896785674', 'DIREKOMENDASIKA...', '', '2015-12-03 09:4...', 'dsadas@adsd.cim')
+#5 /var/www/app/Controller/FrontController.php(1377): ApiXml->pushCTS('asda', '0896785674', 'DIREKOMENDASIKA...', 'dsadas@adsd.cim')
+#6 [internal function]: FrontController->landing5()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-03 09:49:30 Cts: error id: 3422 name: dfsgdfdf phone: 0897867567 prod: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM timeLead: 2015-12-03 09:48:59 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('dfsgdfdf', '0897867567', 'DIREKOMENDASIKA...', '', '2015-12-03 09:4...', 'dsadas@adsd.cim')
+#5 /var/www/app/Controller/FrontController.php(1382): ApiXml->pushCTS('dfsgdfdf', '0897867567', 'DIREKOMENDASIKA...', 'dsadas@adsd.cim')
+#6 [internal function]: FrontController->landing5()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-18 23:46:05 Cts: error id: 3623 name: Andi phone: 081788494232 prod: Jaga Sehat Keluarga timeLead: 2016-04-18 23:45:35 timeCall:  error: exception 'CakeException' in /var/www/app/Model/ApiXml.php:197
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('Andi', '081788494232', 'Jaga Sehat Kelu...', '', '2016-04-18 23:4...', 'andi@jagadiri.c...')
+#1 /var/www/app/Controller/FrontController.php(1661): ApiXml->pushCTS('Andi', '081788494232', 'Jaga Sehat Kelu...', 'andi@jagadiri.c...')
+#2 [internal function]: FrontController->productdetail('jaga-sehat-kelu...')
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-10-07 15:51:39 Cts: error id: 3624 name: sam phone: 081299360063 prod: Leads Homepage timeLead: 2016-10-07 15:51:09 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('sam', '081299360063', 'Leads Homepage', '', '2016-10-07 15:5...', '')
+#5 /var/www/app/Controller/FrontController.php(1329): ApiXml->pushCTS('sam', '081299360063', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-10-07 15:52:12 Cts: error id: 3625 name: sam phone: 081299360063 prod: Leads Homepage timeLead: 2016-10-07 15:51:42 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('sam', '081299360063', 'Leads Homepage', '', '2016-10-07 15:5...', '')
+#5 /var/www/app/Controller/FrontController.php(1329): ApiXml->pushCTS('sam', '081299360063', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-10-07 15:52:45 Cts: error id: 3626 name: sam phone: 081299360063 prod: Leads Homepage timeLead: 2016-10-07 15:52:15 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('sam', '081299360063', 'Leads Homepage', '', '2016-10-07 15:5...', '')
+#5 /var/www/app/Controller/FrontController.php(1329): ApiXml->pushCTS('sam', '081299360063', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-10-07 16:09:11 Cts: error id: 3627 name: tes phone: 08129999 prod: Leads Homepage timeLead: 2016-10-07 16:08:41 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('tes', '08129999', 'Leads Homepage', '', '2016-10-07 16:0...', '')
+#5 /var/www/app/Controller/FrontController.php(1329): ApiXml->pushCTS('tes', '08129999', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-10-07 16:17:30 Cts: error id: 3628 name: test phone: 0817273723 prod: Leads Homepage timeLead: 2016-10-07 16:17:00 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('test', '0817273723', 'Leads Homepage', '', '2016-10-07 16:1...', '')
+#5 /var/www/app/Controller/FrontController.php(1329): ApiXml->pushCTS('test', '0817273723', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-10-10 14:50:58 Cts: error id: 3629 name: sam phone: 08129999 prod: Leads Homepage timeLead: 2016-10-10 14:50:28 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('sam', '08129999', 'Leads Homepage', '', '2016-10-10 14:5...', '')
+#5 /var/www/app/Controller/FrontController.php(1330): ApiXml->pushCTS('sam', '08129999', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-10-10 14:54:13 Cts: error id: 3630 name: tes beli phone: 08129999 prod: Leads Homepage timeLead: 2016-10-10 14:53:43 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('tes beli', '08129999', 'Leads Homepage', '', '2016-10-10 14:5...', '')
+#5 /var/www/app/Controller/FrontController.php(1330): ApiXml->pushCTS('tes beli', '08129999', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-11-29 16:19:35 Cts: error id: 3631 name: asd phone: 0 prod: Jaga Sehat Plus timeLead: 2016-11-29 16:19:05 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('asd', '0', 'Jaga Sehat Plus', '', '2016-11-29 16:1...', 'asd@asd.com')
+#5 /var/www/app/Controller/FrontController.php(2092): ApiXml->pushCTS('asd', '0', 'Jaga Sehat Plus', 'asd@asd.com')
+#6 [internal function]: FrontController->productdetail('jaga-sehat-plus')
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-11-29 16:21:02 Cts: error id: 3632 name: asd phone: 0 prod: Jaga Sehat Plus timeLead: 2016-11-29 16:20:32 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('asd', '0', 'Jaga Sehat Plus', '', '2016-11-29 16:2...', 'asd@asd.com')
+#5 /var/www/app/Controller/FrontController.php(2092): ApiXml->pushCTS('asd', '0', 'Jaga Sehat Plus', 'asd@asd.com')
+#6 [internal function]: FrontController->productdetail('jaga-sehat-plus')
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-11-29 16:21:55 Cts: error id: 3633 name: asd phone: 0 prod: Jaga Sehat Plus timeLead: 2016-11-29 16:21:24 timeCall:  error: exception 'SocketException' with message 'Connection timed out' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('asd', '0', 'Jaga Sehat Plus', '', '2016-11-29 16:2...', 'asd@asd.com')
+#5 /var/www/app/Controller/FrontController.php(2092): ApiXml->pushCTS('asd', '0', 'Jaga Sehat Plus', 'asd@asd.com')
+#6 [internal function]: FrontController->productdetail('jaga-sehat-plus')
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-12-16 14:08:52 Cts: error id: 3634 name: sda phone: 08123123 prod: Leads Homepage timeLead: 2016-12-16 14:08:52 timeCall:  error: exception 'SocketException' with message 'Connection refused' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('sda', '08123123', 'Leads Homepage', '', '2016-12-16 14:0...', '')
+#5 /var/www/app/Controller/FrontController.php(1676): ApiXml->pushCTS('sda', '08123123', 'Leads Homepage')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 10:35:06 Cts: error id: 3635 name: awds phone: 0812312312 prod: Leads Homepage timeLead: 2017-03-07 10:35:03 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('awds', '0812312312', 'Leads Homepage', '', '2017-03-07 10:3...', 'ase@ad.ce')
+#5 /var/www/app/Controller/FrontController.php(2095): ApiXml->pushCTS('awds', '0812312312', 'Leads Homepage', 'ase@ad.ce')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 10:47:00 Cts: error id: 3636 name: test 1 phone: 08123123 prod: Leads Homepage timeLead: 2017-03-07 10:46:57 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('test 1', '08123123', 'Leads Homepage', '', '2017-03-07 10:4...', 'tes@ts.est')
+#5 /var/www/app/Controller/FrontController.php(2096): ApiXml->pushCTS('test 1', '08123123', 'Leads Homepage', 'tes@ts.est')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 10:49:32 Cts: error id: 3637 name: asb phone: 08123123 prod: Leads Homepage timeLead: 2017-03-07 10:49:28 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('asb', '08123123', 'Leads Homepage', '', '2017-03-07 10:4...', 'opo@iki.java')
+#5 /var/www/app/Controller/FrontController.php(2096): ApiXml->pushCTS('asb', '08123123', 'Leads Homepage', 'opo@iki.java')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 11:30:35 Cts: error id: 3638 name: iok phone: 08123456 prod: Leads Homepage timeLead: 2017-03-07 11:30:32 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('iok', '08123456', 'Leads Homepage', '', '2017-03-07 11:3...', 'ko@ok.ko')
+#5 /var/www/app/Controller/FrontController.php(2096): ApiXml->pushCTS('iok', '08123456', 'Leads Homepage', 'ko@ok.ko')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 11:32:36 Cts: error id: 3639 name: iok phone: 08123456 prod: Leads Homepage timeLead: 2017-03-07 11:32:32 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('iok', '08123456', 'Leads Homepage', '', '2017-03-07 11:3...', 'ko@ok.ko')
+#5 /var/www/app/Controller/FrontController.php(2096): ApiXml->pushCTS('iok', '08123456', 'Leads Homepage', 'ko@ok.ko')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 11:36:07 Cts: error id: 3640 name: awd phone: 08123123 prod: Leads Homepage timeLead: 2017-03-07 11:36:04 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('awd', '08123123', 'Leads Homepage', '', '2017-03-07 11:3...', 'iop@poi.xp')
+#5 /var/www/app/Controller/FrontController.php(2096): ApiXml->pushCTS('awd', '08123123', 'Leads Homepage', 'iop@poi.xp')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 11:37:16 Cts: error id: 3641 name: aaaaw phone: 08123123123 prod: Leads Homepage timeLead: 2017-03-07 11:37:12 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('aaaaw', '08123123123', 'Leads Homepage', '', '2017-03-07 11:3...', 'awd@asd.cp')
+#5 /var/www/app/Controller/FrontController.php(2096): ApiXml->pushCTS('aaaaw', '08123123123', 'Leads Homepage', 'awd@asd.cp')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-07 11:42:59 Cts: error id: 3642 name: aaaaw phone: 08123123123 prod: Leads Homepage timeLead: 2017-03-07 11:42:56 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('aaaaw', '08123123123', 'Leads Homepage', '', '2017-03-07 11:4...', 'awd@asd.cp')
+#5 /var/www/app/Controller/FrontController.php(2096): ApiXml->pushCTS('aaaaw', '08123123123', 'Leads Homepage', 'awd@asd.cp')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-09 10:15:58 Cts: error id: 3643 name: test beli phone: 08123123 prod: Leads Homepage timeLead: 2017-03-09 10:15:55 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('test beli', '08123123', 'Leads Homepage', '', '2017-03-09 10:1...', 'test@beli.com')
+#5 /var/www/app/Controller/FrontController.php(2098): ApiXml->pushCTS('test beli', '08123123', 'Leads Homepage', 'test@beli.com')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-09 10:18:40 Cts: error id: 3644 name: test belie phone: 08123123 prod: Leads Homepage timeLead: 2017-03-09 10:18:37 timeCall:  error: exception 'SocketException' with message 'No route to host' in /var/www/lib/Cake/Network/CakeSocket.php:164
+Stack trace:
+#0 /var/www/lib/Cake/Network/CakeSocket.php(272): CakeSocket->connect()
+#1 /var/www/lib/Cake/Network/Http/HttpSocket.php(374): CakeSocket->write('POST /CAF/uploa...')
+#2 /var/www/lib/Cake/Network/Http/HttpSocket.php(484): HttpSocket->request(Array)
+#3 /var/www/app/Model/ApiXml.php(194): HttpSocket->post('http://202.169....', '<?xml version="...')
+#4 /var/www/app/Model/ApiXml.php(216): ApiXml->CTSGrandSpot('test belie', '08123123', 'Leads Homepage', '', '2017-03-09 10:1...', 'beli@dong.ea')
+#5 /var/www/app/Controller/FrontController.php(2098): ApiXml->pushCTS('test belie', '08123123', 'Leads Homepage', 'beli@dong.ea')
+#6 [internal function]: FrontController->home()
+#7 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#8 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#10 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

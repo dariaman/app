@@ -1,0 +1,314 @@
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+@charset "UTF-8";
+@font-face
+{
+font-family:Nunito-Light;
+src: url("Nunito-Light.ttf")format('truetype'); /* IE9+ */
+}
+@font-face
+{
+font-family:Nunito-Bold;
+src: url("Nunito-Bold.ttf")format('truetype'); /* IE9+ */
+}
+@font-face
+{
+font-family:Gotham-Medium;
+src: url("Gotham-Medium.otf")format('truetype'); /* IE9+ */
+}
+@font-face
+{
+font-family:GothamBlack;
+src: url("GothamBlack.otf")format('truetype'); /* IE9+ */
+}
+@font-face
+{
+font-family:BebasNeue Bold;
+src: url("BebasNeue Bold.otf")format('truetype'); /* IE9+ */
+}
+/**
+CSS Reset
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+	min-height:100%;
+	width:100%;
+}
+body {
+    background: #fff;
+}
+.container {
+    margin: 0 auto;
+    min-height: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.columns {
+    height: 100%;   
+}
+.content-area, .article-tree{
+    overflow:auto;
+    min-height: 100%;
+}
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+	font-family:Gotham-Medium;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section 
+{
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+a:hover{
+	text-decoration:none;
+}
+header{
+	min-height:98px;
+	background-image:url("../img/header_lp.png");
+	background-size:100% 100%;
+	padding:10px 0px;
+}
+strong{
+	font-family:GothamBlack!important;
+}
+p{
+	font-family:Gotham-Medium;
+	font-size:12px;
+	color:#000;
+	line-height:1.4em;
+}
+span.peach{
+	color:#ec2327!Important;
+}
+span.green{
+	color:#00a94f!Important;
+}
+span.big{
+	font-size:14px;
+}
+h1.hub{
+	font-size:16px;
+	color:#58595bl;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+h2.info{
+	font-size:18.5px;
+	color:#007dc3;
+}
+ul.socmed{
+	margin-top:15px;
+}
+h2.title{
+	color:#58595b;
+	font-size:20px;
+	font-family:Nunito-Bold!Important;
+	margin-bottom:0px;
+	position:relative;
+	top:-10px;
+}
+.box-promo{
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background: #e9e9e9; /* Old browsers */
+	min-height:150px;
+	padding:15px;
+    margin-bottom:10px;
+}
+.box-promo h2{
+	font-size:17px;
+	color:#58595b;
+	margin-bottom:15px;
+}
+.btn-hub {
+	-moz-box-shadow:inset 0px -8px 0px 0px #CE970F;
+	-webkit-box-shadow:inset 0px -8px 0px 0px #CE970F;
+	box-shadow:inset 0px -8px 0px 0px #CE970F;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FDB913), color-stop(1, #FDB913) );
+	background:-moz-linear-gradient( center top, #FDB913 5%, #FDB913 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDB913', endColorstr='#FDB913');
+	background-color:#FDB913;
+    border: 0px solid transparent;
+    display: inline-block;
+    color: #F3F7FB;
+    font-size: 20px;
+    line-height: 16px;
+    padding: 2px 35px 10px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    font-family: BebasNeue Bold !important;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+.btn-hub:hover{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CE970F), color-stop(1, #FDB913) );
+	background:-moz-linear-gradient( center top, #CE970F 5%, #FDB913 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CE970F', endColorstr='#FDB913');
+	background-color:#CE970F;
+}
+h4.copy{
+	font-size:12px;
+	color:#000;
+	position:relative;
+	bottom:0;
+}
+
+
+/*new*/
+.carousel-caption-product {
+  position: absolute;
+  right: 15%;
+  bottom:20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: right;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+p.review-product{
+    font-size: 12px;
+    color: #888;
+} 
+ul.ic li{
+    margin-bottom: 15px;   
+}
+.best-seller {
+    position: absolute;
+    right: 45px;
+    top: -8px;
+    z-index: 99;
+}
+.belum {
+    position: absolute;
+    right: auto;
+    left:10px;
+    top: 20px;
+    z-index: 99;
+}
+.box-blue{
+	margin:5px;
+	background:#007dc3;
+	min-height:620px;
+    padding-top: 85px;
+}
+.box-blue h2{
+    color:#fff;
+	font-size:18px;
+	text-align:left; 
+    line-height: 1.6em;
+    margin-left: 10px;
+}
+.tri{
+	background-image:url('../img/triangel-new.png');
+	background-color:transparent;
+    padding-top:5px;
+    padding-right:5px;
+    margin: 0;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	position: absolute;
+    min-height:200px;
+    bottom:0;
+    width:90%;
+}
+label.rad{
+    color: #fff;
+} 
+.no-gap [class*="-6"], 
+.no-gap [class*="-9"],
+.no-gap [class*="-3"]{
+	padding-left:0;
+    padding-right:0;
+}
+ .btn-hub{
+ 	color: #666;
+   text-transform: uppercase;
+   font-family: Gotham !important;
+ }
+
+/* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (min-width: 768px) and (max-width : 1280px) {
+		h1.hub, h2.info{
+		font-size:16px;
+		}
+		ul.socmed > li{
+			padding-right:0px!important;
+		}
+	}
+	
+	@media (min-width: 768px) and (max-width : 990px) {
+	header{
+		min-height:220px;
+	}
+	h1.hub, h2.info{
+	font-size:14px;
+	text-align:center;
+	margin-top:5px;
+	}
+	ul.socmed{
+	margin-top:5px;
+	}
+	h2.title{
+	font-size:18px;
+	}
+	body{
+		background:#fff;
+	}
+}
+	
+    @media (max-width: 767px) {
+	header{
+		min-height:230px;
+	}
+	h1.hub, h2.info{
+	font-size:14px;
+	text-align:center;
+	margin-top:5px;
+	}
+	ul.socmed{
+	margin-top:5px;
+	}
+	h2.title{
+	font-size:16px;
+	}
+	body{
+		background:#fff;
+	}
+    p.review-product{
+        margin-bottom: 20px;
+    } 
+}
+
+#Contactme{
+  position:relative;
+  z-index:1000;
+}

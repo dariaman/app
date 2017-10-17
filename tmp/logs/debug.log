@@ -1,0 +1,1010 @@
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 139]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 139
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 139]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 139
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: January in [/var/www/app/View/Layouts/landing.ctp, line 140]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 140
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: January in [/var/www/app/View/Layouts/landing.ctp, line 140]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 140
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 143]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 143
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 143]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 143
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 144]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 144
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 144]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 144
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 145]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 145
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 145]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 145
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 146]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 146
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 146]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 146
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 148]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 148
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 148]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 148
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 149]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 149
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-02 16:33:55 Notice: Notice (8): Undefined index: JadwalPray in [/var/www/app/View/Layouts/landing.ctp, line 149]
+Trace:
+include - APP/View/Layouts/landing.ctp, line 149
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::renderLayout() - CORE/Cake/View/View.php, line 542
+View::render() - CORE/Cake/View/View.php, line 479
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2015-11-19 14:53:15 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 14:53:15 +0700
+Message-ID: <564d7feb23e84c17a3d35ab8c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 14:53:15 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 14:53:15 +0700
+Message-ID: <564d7feb23e84c17a3d35ab8c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 14:53:35 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 14:53:35 +0700
+Message-ID: <564d7fffbd1447aca08d5ad7c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 14:53:35 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 14:53:35 +0700
+Message-ID: <564d7fffbd1447aca08d5ad7c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 14:58:54 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 14:58:54 +0700
+Message-ID: <564d813eef4443b694755ad7c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 14:58:54 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 14:58:54 +0700
+Message-ID: <564d813eef4443b694755ad7c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:01:18 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:01:18 +0700
+Message-ID: <564d81ceba3c4e3a8ae95b88c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:01:18 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:01:18 +0700
+Message-ID: <564d81ceba3c4e3a8ae95b88c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:10:25 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:10:25 +0700
+Message-ID: <564d83f1564c4b82a4c45ad6c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:10:25 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:10:25 +0700
+Message-ID: <564d83f1564c4b82a4c45ad6c0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:12:39 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:12:39 +0700
+Message-ID: <564d84774ba844628ae55abfc0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Ane<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:12:39 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:12:39 +0700
+Message-ID: <564d84774ba844628ae55abfc0a8023e@103.24.12.244>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Ane<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:16:18 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: wisya@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:16:18 +0700
+Message-ID: <564d855208b0461e91805ad8c0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Ane<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 15:16:18 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: wisya@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 15:16:18 +0700
+Message-ID: <564d855208b0461e91805ad8c0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Ane<br/>Contact Phone: 08123123123<br/>
+
+
+2015-11-19 16:16:28 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: wisya@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 16:16:28 +0700
+Message-ID: <564d936c6884465c869e5e16c0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08967545454<br/>
+
+
+2015-11-19 16:16:28 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: wisya@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 16:16:28 +0700
+Message-ID: <564d936c6884465c869e5e16c0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08967545454<br/>
+
+
+2015-11-19 16:18:41 Debug: 
+From: noreply@jagadiri.co.id
+To: dwi@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 16:18:41 +0700
+Message-ID: <564d93f11d144f63bbae5b9dc0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08967545454<br/>
+
+
+2015-11-19 16:18:41 Debug: 
+From: noreply@jagadiri.co.id
+To: dwi@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 16:18:41 +0700
+Message-ID: <564d93f11d144f63bbae5b9dc0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Dwi<br/>Contact Phone: 08967545454<br/>
+
+
+2015-11-19 16:31:32 Debug: 
+From: noreply@jagadiri.co.id
+To: dwi@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 16:31:32 +0700
+Message-ID: <564d96f4e9bc47f4ad655e15c0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Test<br/>Contact Phone: 0818181818<br/>
+
+
+2015-11-19 16:31:32 Debug: 
+From: noreply@jagadiri.co.id
+To: dwi@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 19 Nov 2015 16:31:32 +0700
+Message-ID: <564d96f4e9bc47f4ad655e15c0a8023e@103.24.12.244>
+Subject: Saya Mau Mencari Informasi Produk - Jagadiri
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Test<br/>Contact Phone: 0818181818<br/>
+
+
+2015-12-02 10:34:35 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:34:35 +0700
+Message-ID: <565e66cb80d445fca6435807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MUMUN
+Phone: 0812393343434
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:34:34
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:34:35 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:34:35 +0700
+Message-ID: <565e66cb80d445fca6435807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MUMUN
+Phone: 0812393343434
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:34:34
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:34:35 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:34:35 +0700
+Message-ID: <565e66cb6fe8433e91755807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: KOKOM
+Phone: 0856234234234
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:34:35
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:34:35 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:34:35 +0700
+Message-ID: <565e66cb6fe8433e91755807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: KOKOM
+Phone: 0856234234234
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:34:35
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:34:36 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:34:36 +0700
+Message-ID: <565e66cc7eec4615a5925807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MULKOM
+Phone: 081315171920
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:34:36
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:34:36 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:34:36 +0700
+Message-ID: <565e66cc7eec4615a5925807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MULKOM
+Phone: 081315171920
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:34:36
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:08 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:08 +0700
+Message-ID: <565e6890440c4001868063f6c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MUMUN
+Phone: 0812393343434
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:07
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:08 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:08 +0700
+Message-ID: <565e6890440c4001868063f6c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MUMUN
+Phone: 0812393343434
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:07
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:08 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:08 +0700
+Message-ID: <565e6890f3dc44678fda63f6c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: KOKOM
+Phone: 0856234234234
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:08
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:08 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:08 +0700
+Message-ID: <565e6890f3dc44678fda63f6c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: KOKOM
+Phone: 0856234234234
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:08
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:10 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:10 +0700
+Message-ID: <565e6892c46843e29f7463f6c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MULKOM
+Phone: 081123232823
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:08
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:10 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:10 +0700
+Message-ID: <565e6892c46843e29f7463f6c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MULKOM
+Phone: 081123232823
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:08
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:54 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:54 +0700
+Message-ID: <565e68bef5e04884be2b5807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MUMUN
+Phone: 0812393343434
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:54
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:54 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:54 +0700
+Message-ID: <565e68bef5e04884be2b5807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MUMUN
+Phone: 0812393343434
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:54
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:55 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:55 +0700
+Message-ID: <565e68bf700444cfa8295807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: KOKOM
+Phone: 081213141516
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:54
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:55 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:55 +0700
+Message-ID: <565e68bf700444cfa8295807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: KOKOM
+Phone: 081213141516
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:54
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:55 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:55 +0700
+Message-ID: <565e68bfb2244997a3075807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MULKOM
+Phone: 081123232823
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:55
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-02 10:42:55 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Wed, 02 Dec 2015 10:42:55 +0700
+Message-ID: <565e68bfb2244997a3075807c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: MULKOM
+Phone: 081123232823
+Product: DIREKOMENDASIKAN_ZULKARNAEN_08178937773_mulianto.wibowo@jagadiri.co.id_MGM
+timeCall: 
+timeLead: 2015-12-02 10:42:55
+Email: mulianto.wibowo@jagadiri.co.id
+
+
+
+2015-12-03 09:48:27 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 03 Dec 2015 09:48:27 +0700
+Message-ID: <565fad7be6d842e78d936722c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: asdd
+Phone: 0897895756
+Product: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM
+timeCall: 
+timeLead: 2015-12-03 09:47:57
+Email: dsadas@adsd.cim
+
+
+
+2015-12-03 09:48:27 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 03 Dec 2015 09:48:27 +0700
+Message-ID: <565fad7be6d842e78d936722c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: asdd
+Phone: 0897895756
+Product: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM
+timeCall: 
+timeLead: 2015-12-03 09:47:57
+Email: dsadas@adsd.cim
+
+
+
+2015-12-03 09:48:59 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 03 Dec 2015 09:48:59 +0700
+Message-ID: <565fad9b0a84446b867a6722c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: asda
+Phone: 0896785674
+Product: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM
+timeCall: 
+timeLead: 2015-12-03 09:48:27
+Email: dsadas@adsd.cim
+
+
+
+2015-12-03 09:48:59 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 03 Dec 2015 09:48:59 +0700
+Message-ID: <565fad9b0a84446b867a6722c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: asda
+Phone: 0896785674
+Product: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM
+timeCall: 
+timeLead: 2015-12-03 09:48:27
+Email: dsadas@adsd.cim
+
+
+
+2015-12-03 09:49:32 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 03 Dec 2015 09:49:32 +0700
+Message-ID: <565fadbcb0944347a1d96722c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: dfsgdfdf
+Phone: 0897867567
+Product: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM
+timeCall: 
+timeLead: 2015-12-03 09:48:59
+Email: dsadas@adsd.cim
+
+
+
+2015-12-03 09:49:32 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Thu, 03 Dec 2015 09:49:32 +0700
+Message-ID: <565fadbcb0944347a1d96722c0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: dfsgdfdf
+Phone: 0897867567
+Product: DIREKOMENDASIKAN_dadsas_08965765457_dsadas@adsd.cim_MGM
+timeCall: 
+timeLead: 2015-12-03 09:48:59
+Email: dsadas@adsd.cim
+
+
+
+2016-04-18 23:46:05 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Mon, 18 Apr 2016 23:46:05 +0700
+Message-ID: <57150f4de2584b6ab1a83cefc0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Andi
+Phone: 081788494232
+Product: Jaga Sehat Keluarga
+timeCall: 
+timeLead: 2016-04-18 23:45:35
+Email: andi@jagadiri.co.id
+
+
+
+2016-04-18 23:46:06 Debug: 
+From: "No-Reply Jagadiri.co.id" <noreply@jagadiri.co.id>
+To: Jodie.Pratomo@jagadiri.co.id
+Cc: surya@aqi.co.id, paskal@aqi.co.id
+X-Mailer: CakePHP Email
+Date: Mon, 18 Apr 2016 23:46:05 +0700
+Message-ID: <57150f4de2584b6ab1a83cefc0a8023e@103.24.12.244>
+Subject: Jagadiri message send failure
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: Andi
+Phone: 081788494232
+Product: Jaga Sehat Keluarga
+timeCall: 
+timeLead: 2016-04-18 23:45:35
+Email: andi@jagadiri.co.id
+
+
+
+2016-12-16 16:47:52 Notice: Notice (8): Undefined index: CPolicyInsured in [/var/www/app/Model/ApiXml.php, line 34]
+Trace:
+ApiXml::getData() - APP/Model/ApiXml.php, line 34
+ApiXml::cekFreeMovie() - APP/Model/ApiXml.php, line 238
+FrontController::reservasi_nonton() - APP/Controller/FrontController.php, line 2875
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2016-12-16 16:47:52 Notice: Notice (8): Undefined index: CPolicyInsured in [/var/www/app/Model/ApiXml.php, line 34]
+Trace:
+ApiXml::getData() - APP/Model/ApiXml.php, line 34
+ApiXml::cekFreeMovie() - APP/Model/ApiXml.php, line 238
+FrontController::reservasi_nonton() - APP/Controller/FrontController.php, line 2875
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2017-01-25 10:49:21 Notice: Notice (8): Undefined offset: 0 in [/var/www/app/View/Front/step2_your_detail.ctp, line 715]
+Trace:
+include - APP/View/Front/step2_your_detail.ctp, line 715
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2017-01-25 10:49:22 Notice: Notice (8): Undefined offset: 0 in [/var/www/app/View/Front/step2_your_detail.ctp, line 715]
+Trace:
+include - APP/View/Front/step2_your_detail.ctp, line 715
+View::_evaluate() - CORE/Cake/View/View.php, line 948
+View::_render() - CORE/Cake/View/View.php, line 910
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2017-01-25 10:49:27 Notice: Notice (8): Undefined index: cust_gender in [/var/www/app/Controller/FrontController.php, line 529]
+Trace:
+FrontController::checkAcumulation() - APP/Controller/FrontController.php, line 529
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+
+2017-01-25 10:49:27 Notice: Notice (8): Undefined index: cust_gender in [/var/www/app/Controller/FrontController.php, line 529]
+Trace:
+FrontController::checkAcumulation() - APP/Controller/FrontController.php, line 529
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 113
+

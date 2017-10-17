@@ -1,0 +1,380 @@
+2015-11-19 14:04:43 Visamaster: [merchantTransactionID] 00051974 [transactionStatus] DECLINED [APIResponse] DECLINED
+2015-12-01 16:47:01 Visamaster: [merchantTransactionID] 00052000 [transactionStatus] DECLINED [APIResponse] DECLINED
+2015-12-01 16:50:10 Visamaster: [merchantTransactionID] 00052028 [transactionStatus] DECLINED [APIResponse] DECLINED
+2015-12-02 10:50:51 Visamaster: [merchantTransactionID] 00052059 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-03-15 15:24:06 Visamaster: [merchantTransactionID] 00053993 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-03-15 15:29:53 Visamaster: [merchantTransactionID] 00053972 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-03-15 15:32:16 Visamaster: [merchantTransactionID] 00054004 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-03-15 15:36:35 Visamaster: [merchantTransactionID] 00054015 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-03-15 15:45:31 Visamaster: [merchantTransactionID] 00054027 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-04-04 10:28:50 Visamaster: [merchantTransactionID] 00057215 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-07 12:09:53 Visamaster: [merchantTransactionID] 00058587 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-04-11 08:57:37 Visamaster: [merchantTransactionID] 00058998 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-11 09:01:24 Visamaster: [merchantTransactionID] 00059009 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-11 15:51:28 Visamaster: [merchantTransactionID] 00059389 [transactionStatus] ERROR [APIResponse] ERROR Invalid site request URL
+2016-04-12 14:28:41 Visamaster: [merchantTransactionID]: 00059605 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(658): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(186): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-04-12 14:37:42 Visamaster: [merchantTransactionID]: 00059614 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(658): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(186): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-04-12 15:04:47 Visamaster: [merchantTransactionID] 00059651 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-12 15:10:09 Visamaster: [merchantTransactionID]: 00059667 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(658): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(186): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-04-12 15:52:28 Visamaster: [merchantTransactionID] 00059698 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-13 09:47:26 Visamaster: [merchantTransactionID] 00059819 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-13 10:01:56 Visamaster: [merchantTransactionID] 00059826 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-13 10:23:35 Visamaster: [merchantTransactionID] 00059835 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-13 10:41:14 Visamaster: [merchantTransactionID] 00059842 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-13 11:55:22 Visamaster: [merchantTransactionID] 00059890 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-04-14 05:34:04 Visamaster: [merchantTransactionID] 00060140 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-04-14 05:41:35 Visamaster: [merchantTransactionID] 00060155 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-04-14 05:45:29 Visamaster: [merchantTransactionID] 00060172 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-04-14 09:05:42 Visamaster: [merchantTransactionID] 00060223 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-14 10:25:11 Visamaster: [merchantTransactionID] 00060268 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-14 14:42:44 Visamaster: [merchantTransactionID] 00060748 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-14 18:22:28 Visamaster: [merchantTransactionID] 00061063 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-04-14 18:32:17 Visamaster: [merchantTransactionID] 00061085 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-15 22:57:53 Visamaster: [merchantTransactionID] 00061586 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-15 23:10:02 Visamaster: [merchantTransactionID] 00061593 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-16 07:02:38 Visamaster: [merchantTransactionID] 00061615 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-16 17:09:09 Visamaster: [merchantTransactionID] 00062007 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-04-16 18:28:25 Visamaster: [merchantTransactionID] 00062030 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-04-16 23:57:16 Visamaster: [merchantTransactionID] 00062122 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-17 04:24:04 Visamaster: [merchantTransactionID] 00062356 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 09:33:25 Visamaster: [merchantTransactionID] 00062510 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 14:13:10 Visamaster: [merchantTransactionID] 00062552 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 16:31:17 Visamaster: [merchantTransactionID] 00062743 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 16:43:01 Visamaster: [merchantTransactionID] 00062758 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 19:43:52 Visamaster: [merchantTransactionID] 00062961 [transactionStatus] ERROR [APIResponse] ERROR Merchant transaction ID exists
+2016-04-18 19:48:12 Visamaster: [merchantTransactionID] 00062974 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 19:56:22 Visamaster: [merchantTransactionID] 00063039 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 20:31:31 Visamaster: [merchantTransactionID] 00063324 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 21:14:10 Visamaster: [merchantTransactionID] 00063400 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 23:03:37 Visamaster: [merchantTransactionID] 00063923 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 23:09:47 Visamaster: [merchantTransactionID] 00063968 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-18 23:19:57 Visamaster: [merchantTransactionID] 00064031 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2016-04-19 03:33:59 Visamaster: [merchantTransactionID] 00064357 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-04-19 03:36:58 Visamaster: [merchantTransactionID] 00064361 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-05-24 17:57:23 Visamaster: [merchantTransactionID] 00064771 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-05-25 08:18:34 Visamaster: [merchantTransactionID] 00064785 [transactionStatus] APPROVED [APIResponse] 
+2016-05-25 16:08:15 Visamaster: [merchantTransactionID] 00064792 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-05-26 12:24:31 Visamaster: [merchantTransactionID] 00064825 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 14:08:44 Visamaster: [merchantTransactionID] 00064839 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 14:12:59 Visamaster: [merchantTransactionID] 00064841 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 14:19:29 Visamaster: [merchantTransactionID] 00064860 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 14:44:21 Visamaster: [merchantTransactionID] 00064873 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 15:02:43 Visamaster: [merchantTransactionID] 00064887 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 15:09:00 Visamaster: [merchantTransactionID] 00064894 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 15:17:05 Visamaster: [merchantTransactionID] 00064904 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 15:34:02 Visamaster: [merchantTransactionID] 00064915 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-26 15:52:42 Visamaster: [merchantTransactionID] 00064936 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-27 14:16:04 Visamaster: [merchantTransactionID] 00064943 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-27 14:23:38 Visamaster: [merchantTransactionID] 00064958 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-27 15:10:01 Visamaster: [merchantTransactionID] 00064970 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-27 15:53:19 Visamaster: [merchantTransactionID] 00065032 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-27 16:04:13 Visamaster: [merchantTransactionID] 00065045 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-27 16:21:14 Visamaster: [merchantTransactionID] 00065050 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-30 11:59:26 Visamaster: [merchantTransactionID] 00065066 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-30 12:19:47 Visamaster: [merchantTransactionID] 00065078 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-30 13:44:48 Visamaster: [merchantTransactionID] 00065084 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-30 15:03:21 Visamaster: [merchantTransactionID] 00065111 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-30 15:11:54 Visamaster: [merchantTransactionID] 00065124 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-30 15:17:44 Visamaster: [merchantTransactionID] 00065130 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-05-30 15:41:55 Visamaster: [merchantTransactionID] 00065148 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 11:00:38 Visamaster: [merchantTransactionID] 00065928 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 11:36:01 Visamaster: [merchantTransactionID] 00065959 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 11:40:43 Visamaster: [merchantTransactionID] 00065963 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 11:42:46 Visamaster: [merchantTransactionID] 00065971 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 11:44:32 Visamaster: [merchantTransactionID] 00065985 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 11:52:25 Visamaster: [merchantTransactionID] 00065992 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 14:06:23 Visamaster: [merchantTransactionID] 00066079 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 15:47:26 Visamaster: [merchantTransactionID] 00066177 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-01 15:56:37 Visamaster: [merchantTransactionID] 00066183 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-02 16:39:38 Visamaster: [merchantTransactionID] 00066257 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-02 16:42:49 Visamaster: [merchantTransactionID] 00066261 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-02 16:59:46 Visamaster: [merchantTransactionID] 00066300 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-02 18:02:22 Visamaster: [merchantTransactionID] 00066385 [transactionStatus] ERROR [APIResponse] ERROR Invalid site request URL
+2016-06-02 18:03:00 Visamaster: [merchantTransactionID] 00066392 [transactionStatus] ERROR [APIResponse] ERROR Invalid site request URL
+2016-06-02 18:21:44 Visamaster: [merchantTransactionID] 00066407 [transactionStatus] APPROVED [APIResponse] 
+2016-06-03 11:27:36 Visamaster: [merchantTransactionID] 00066411 [transactionStatus] APPROVED [APIResponse] 
+2016-06-03 14:12:05 Visamaster: [merchantTransactionID] J257 [idPolicy] 284 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-03 14:55:01 Visamaster: [merchantTransactionID] 00066430 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-06-03 15:16:50 Visamaster: [merchantTransactionID] 00066448 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-06-03 15:39:16 Visamaster: [merchantTransactionID] J259 [idPolicy] 286 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-03 16:03:49 Visamaster: [merchantTransactionID] 00066482 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-06-03 17:07:11 Visamaster: [merchantTransactionID] J260 [idPolicy] 287 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-03 17:17:18 Visamaster: [merchantTransactionID] 00066495 [transactionStatus] APPROVED [APIResponse] 
+2016-06-03 17:34:26 Visamaster: [merchantTransactionID] 00066509 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-03 17:49:40 Visamaster: [merchantTransactionID] 00066513 [transactionStatus] APPROVED [APIResponse] 
+2016-06-06 15:10:46 Visamaster: [merchantTransactionID] 00066521 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-08 14:14:09 Visamaster: [merchantTransactionID] 00066532 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-08 14:18:52 Visamaster: [merchantTransactionID] 00066545 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-06-08 14:48:20 Visamaster: [merchantTransactionID] J264 [idPolicy] 291 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-08 16:21:07 Visamaster: [merchantTransactionID] J265 [idPolicy] 292 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-08 16:27:31 Visamaster: [merchantTransactionID] J266 [idPolicy] 293 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-08 16:32:06 Visamaster: [merchantTransactionID] J267 [idPolicy] 294 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-08 16:36:45 Visamaster: [merchantTransactionID] J268 [idPolicy] 295 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-08 16:40:22 Visamaster: [merchantTransactionID] J269 [idPolicy] 296 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-09 09:31:21 Visamaster: [merchantTransactionID] J270 [idPolicy] 297 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-09 10:00:31 Visamaster: [merchantTransactionID] J271 [idPolicy] 298 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-06-09 11:00:15 Visamaster: [merchantTransactionID] J272 [idPolicy] 299 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-09 11:06:02 Visamaster: [merchantTransactionID] J273 [idPolicy] 300 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-09 11:25:25 Visamaster: [merchantTransactionID] J274 [idPolicy] 301 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-06-09 11:29:20 Visamaster: [merchantTransactionID] J275 [idPolicy] 302 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-07-22 15:23:31 Visamaster: [merchantTransactionID] 00067038 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-07-22 15:31:01 Visamaster: [merchantTransactionID] 00067040 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-07-22 16:00:59 Visamaster: [merchantTransactionID] 00067055 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-07-27 17:34:46 Visamaster: [merchantTransactionID] 00067692 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-07-29 12:51:20 Visamaster: [merchantTransactionID] 00067876 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-07-29 13:01:18 Visamaster: [merchantTransactionID] 00067895 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-08-01 12:57:37 Visamaster: [merchantTransactionID] 00067922 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-08-02 16:31:38 Visamaster: [merchantTransactionID] 00067967 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-08-02 16:40:48 Visamaster: [merchantTransactionID] 00067979 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-08-03 19:35:38 Visamaster: [merchantTransactionID] J278 [idPolicy] 305 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-10-04 08:56:59 Visamaster: [merchantTransactionID] 00069163 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-04 09:33:54 Visamaster: [merchantTransactionID] J279 [idPolicy] 306 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-10-04 09:43:44 Visamaster: [merchantTransactionID] 00069192 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-10-04 14:01:54 Visamaster: [merchantTransactionID] 00069246 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-10-04 14:08:18 Visamaster: [merchantTransactionID] 00069251 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-10-04 14:32:33 Visamaster: [merchantTransactionID] 00069267 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-10-04 14:38:17 Visamaster: [merchantTransactionID] 00069279 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-10-04 14:52:41 Visamaster: [merchantTransactionID] 00069280 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-10-04 14:54:33 Visamaster: [merchantTransactionID] 00069298 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-10-05 08:42:11 Visamaster: [merchantTransactionID]: 00069438 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(662): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(187): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-10-05 09:07:17 Visamaster: [merchantTransactionID] 00069440 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-10-05 11:06:08 Visamaster: [merchantTransactionID]: 00069455 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(662): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(187): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-10-05 15:32:45 Visamaster: [merchantTransactionID]: 00069472 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(662): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(187): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-10-05 15:54:46 Visamaster: [merchantTransactionID]: 00069486 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(662): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(187): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-10-13 14:09:54 Visamaster: [merchantTransactionID] J280 [idPolicy] 307 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-10-14 13:40:15 Visamaster: [merchantTransactionID] J283 [idPolicy] 310 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-10-14 13:44:57 Visamaster: [merchantTransactionID] J284 [idPolicy] 311 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-10-14 13:51:05 Visamaster: [merchantTransactionID] J285 [idPolicy] 312 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-10-17 14:29:09 Visamaster: [merchantTransactionID] 00069710 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-17 14:39:21 Visamaster: [merchantTransactionID] 00069723 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-18 14:01:22 Visamaster: [merchantTransactionID] 00069850 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-20 14:48:46 Visamaster: [merchantTransactionID] 00070307 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 14:22:53 Visamaster: [merchantTransactionID] 00070463 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 14:25:34 Visamaster: [merchantTransactionID] 00070471 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 14:35:25 Visamaster: [merchantTransactionID] 00070485 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 14:40:50 Visamaster: [merchantTransactionID] 00070492 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 14:54:42 Visamaster: [merchantTransactionID] 00070503 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 15:23:10 Visamaster: [merchantTransactionID] 00070519 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 15:44:12 Visamaster: [merchantTransactionID] 00070526 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 16:24:19 Visamaster: [merchantTransactionID] 00070535 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 16:27:18 Visamaster: [merchantTransactionID] 00070542 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 16:31:21 Visamaster: [merchantTransactionID] 00070557 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-21 16:51:33 Visamaster: [merchantTransactionID] 00070561 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-24 09:18:43 Visamaster: [merchantTransactionID] 00070588 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-24 10:25:51 Visamaster: [merchantTransactionID] 00070590 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-24 15:03:39 Visamaster: [merchantTransactionID] 00070601 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-24 15:19:19 Visamaster: [merchantTransactionID] 00070629 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-24 16:19:15 Visamaster: [merchantTransactionID] 00070640 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 10:11:31 Visamaster: [merchantTransactionID] 00070664 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 14:00:46 Visamaster: [merchantTransactionID] 00070672 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 14:13:37 Visamaster: [merchantTransactionID] 00070686 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 14:20:58 Visamaster: [merchantTransactionID] 00070693 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 14:28:48 Visamaster: [merchantTransactionID] 00070705 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 14:34:12 Visamaster: [merchantTransactionID] 00070714 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 14:41:38 Visamaster: [merchantTransactionID] 00070722 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 14:46:02 Visamaster: [merchantTransactionID] 00071472 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 15:01:17 Visamaster: [merchantTransactionID] 00071486 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-25 15:42:10 Visamaster: [merchantTransactionID] 00071493 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-10-28 09:57:23 Visamaster: [merchantTransactionID] 00071591 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-09 13:17:12 Visamaster: [merchantTransactionID] 00072098 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-14 15:46:58 Visamaster: [merchantTransactionID] 00072235 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-14 16:04:29 Visamaster: [merchantTransactionID] 00072257 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-14 16:58:42 Visamaster: [merchantTransactionID] 00072274 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-14 18:12:34 Visamaster: [merchantTransactionID] 00072288 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-14 18:18:55 Visamaster: [merchantTransactionID] 00072300 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-16 11:59:55 Visamaster: [merchantTransactionID] 00072371 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 15:01:59 Visamaster: [merchantTransactionID] 00072702 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 15:14:24 Visamaster: [merchantTransactionID] 00072725 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 15:26:51 Visamaster: [merchantTransactionID] 00072739 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 15:31:51 Visamaster: [merchantTransactionID] 00072741 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 15:59:21 Visamaster: [merchantTransactionID] 00072756 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 16:01:04 Visamaster: [merchantTransactionID] 00072760 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 16:02:20 Visamaster: [merchantTransactionID] 00072773 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 16:36:37 Visamaster: [merchantTransactionID] 00072787 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 16:38:02 Visamaster: [merchantTransactionID] 00072794 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 16:44:05 Visamaster: [merchantTransactionID] 00072804 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-21 16:44:57 Visamaster: [merchantTransactionID] 00072815 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 09:44:03 Visamaster: [merchantTransactionID] 00072827 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 09:51:27 Visamaster: [merchantTransactionID] 00072843 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 09:54:49 Visamaster: [merchantTransactionID] 00072858 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 10:02:29 Visamaster: [merchantTransactionID] 00072862 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 10:05:43 Visamaster: [merchantTransactionID] 00072870 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 10:09:22 Visamaster: [merchantTransactionID] 00072889 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 10:12:27 Visamaster: [merchantTransactionID] 00072891 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 10:14:43 Visamaster: [merchantTransactionID] J301 [idPolicy] 347 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-11-22 10:16:55 Visamaster: [merchantTransactionID] 00072901 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 10:19:24 Visamaster: [merchantTransactionID] 00072917 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 13:48:55 Visamaster: [merchantTransactionID] 00072929 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 13:51:44 Visamaster: [merchantTransactionID] 00072938 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 13:57:55 Visamaster: [merchantTransactionID] 00072940 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 14:00:39 Visamaster: [merchantTransactionID] 00072955 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-22 14:09:05 Visamaster: [merchantTransactionID] J302 [idPolicy] 348 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-11-22 14:43:33 Visamaster: [merchantTransactionID] J304 [idPolicy] 350 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2016-11-23 10:08:05 Visamaster: [merchantTransactionID] 00073037 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-23 10:16:09 Visamaster: [merchantTransactionID] 00073044 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-23 10:43:10 Visamaster: [merchantTransactionID] 00073063 [transactionStatus] ERROR [APIResponse] ERROR Invalid checksum
+2016-11-23 11:16:40 Visamaster: [merchantTransactionID]: 00073071 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(690): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(188): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-11-23 11:20:32 Visamaster: [merchantTransactionID]: 00073085 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(690): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(188): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-11-23 11:51:08 Visamaster: [merchantTransactionID]: 00073102 [transactionStatus] APPROVED [APIResponse] [Error]exception 'CakeException' in /var/www/app/Model/ApiXml.php:56
+Stack trace:
+#0 /var/www/app/Model/ApiXml.php(690): ApiXml->sendData(Array, 'InputPaymentGat...', 'Result')
+#1 /var/www/app/Controller/FrontController.php(196): ApiXml->updatePaymentCreditCard(Array)
+#2 [internal function]: FrontController->response_creditcard()
+#3 /var/www/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FrontController), Array)
+#4 /var/www/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FrontController), Object(CakeRequest))
+#6 /var/www/app/webroot/index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-11-23 13:57:51 Visamaster: [merchantTransactionID] 00073118 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2016-11-23 14:04:55 Visamaster: [merchantTransactionID] 00073125 [transactionStatus] DECLINED [APIResponse] DECLINED
+2016-11-24 08:53:23 Visamaster: [merchantTransactionID] 00073160 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-02-10 16:41:31 Visamaster: [merchantTransactionID] 00075339 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-02-10 16:46:51 Visamaster: [merchantTransactionID] 00075341 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-02-10 17:50:13 Visamaster: [merchantTransactionID] 00075409 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-03-09 17:41:50 Visamaster: [merchantTransactionID] J332 [idPolicy] 376 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-03-09 17:55:10 Visamaster: [merchantTransactionID] J333 [idPolicy] 377 [transactionStatus] ERROR [APIResponse] SUCCESS_MESSAGE
+2017-03-09 17:56:38 Visamaster: [merchantTransactionID] J334 [idPolicy] 378 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-04-28 15:11:59 Visamaster: [merchantTransactionID] 00388539 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-06-09 14:06:26 Visamaster: [merchantTransactionID] 00392181 [transactionStatus] ERROR [APIResponse] ERROR Invalid card expiry date
+2017-07-05 15:36:58 Visamaster: [merchantTransactionID] 00392763 [transactionStatus] ERROR [APIResponse] ERROR Invalid card expiry date
+2017-07-05 15:44:39 Visamaster: [merchantTransactionID] 00392771 [transactionStatus] ERROR [APIResponse] ERROR Invalid card expiry date
+2017-07-06 15:17:07 Visamaster: [merchantTransactionID] 00392785 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2017-07-13 15:12:01 Visamaster: [merchantTransactionID] 00393100 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2017-07-13 15:19:38 Visamaster: [merchantTransactionID] 00393116 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-07-13 15:24:06 Visamaster: [merchantTransactionID] 00393128 [transactionStatus] APPROVED [APIResponse] Mailbox unavailable. The server response was: 5.7.1 Unable to relay
+2017-08-23 10:46:36 Visamaster: [merchantTransactionID] 00430504 [transactionStatus] ERROR [APIResponse] ERROR Invalid card expiry date
+2017-08-23 10:54:40 JMK -> Visamaster: [merchantTransactionID] 00430515 [transactionStatus] APPROVED [APIResponse] 
+2017-08-23 18:09:27 Visamaster: [merchantTransactionID] 00430543 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-08-29 12:00:57 Visamaster: [merchantTransactionID] 00430710 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-08-30 16:41:43 Visamaster: [merchantTransactionID] 00430821 [transactionStatus] APPROVED [APIResponse] 
+2017-08-30 16:52:25 Visamaster: [merchantTransactionID] 00430850 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-08-30 16:55:44 Visamaster: [merchantTransactionID] 00430845 [transactionStatus] APPROVED [APIResponse] 
+2017-08-30 16:57:48 Visamaster: [merchantTransactionID] 00430866 [transactionStatus] APPROVED [APIResponse] 
+2017-08-30 17:14:28 Visamaster: [merchantTransactionID] 00430878 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-08-30 17:17:21 Visamaster: [merchantTransactionID] 00430884 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-08-30 17:26:25 Visamaster: [merchantTransactionID] 00430897 [transactionStatus] APPROVED [APIResponse] There is no row at position 0.
+2017-08-30 17:27:54 Visamaster: [merchantTransactionID] 00430907 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-08-30 18:05:26 Visamaster: [merchantTransactionID] 00430930 [transactionStatus] APPROVED [APIResponse] 
+2017-08-30 18:15:07 Visamaster: [merchantTransactionID] 00430948 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-08-30 18:51:17 Visamaster: [merchantTransactionID] 00430976 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-08-31 11:12:26 Visamaster: [merchantTransactionID] 00431015 [transactionStatus] ERROR [APIResponse] ERROR Invalid value for parameter billing email
+2017-08-31 11:18:43 Visamaster: [merchantTransactionID] 00431027 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-08-31 16:40:29 Visamaster: [merchantTransactionID] 00431058 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-09-11 14:55:40 Visamaster: [merchantTransactionID] 00431313 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-09-18 10:26:45 Visamaster: [merchantTransactionID] 00431851 [transactionStatus] ERROR [APIResponse] ERROR Invalid card expiry date
+2017-09-18 10:31:07 Visamaster: [merchantTransactionID] 00431867 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-09-18 10:47:07 Visamaster: [merchantTransactionID] 00431879 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-09-18 10:50:58 Visamaster: [merchantTransactionID] 00431880 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-09-22 11:06:34 Visamaster: [merchantTransactionID] 00432289 [transactionStatus] ERROR [APIResponse] ERROR Invalid card expiry date
+2017-09-22 11:22:18 Visamaster: [merchantTransactionID] 00432301 [transactionStatus] APPROVED [APIResponse] 
+2017-09-22 11:33:54 Visamaster: [merchantTransactionID] 00432317 [transactionStatus] APPROVED [APIResponse] 
+2017-09-22 11:37:46 Visamaster: [merchantTransactionID] 00432329 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-09-22 11:42:32 Visamaster: [merchantTransactionID] 00432340 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-09-22 11:46:46 Visamaster: [merchantTransactionID] 00432355 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-09-22 16:48:29 Visamaster: [merchantTransactionID] 00432420 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-09-22 16:55:28 Visamaster: [merchantTransactionID] 00432449 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-09-22 17:12:48 Visamaster: [merchantTransactionID] 00432431 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-09-27 15:27:03 Visamaster: [merchantTransactionID] 00432735 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-02 14:03:11 Visamaster: [merchantTransactionID] 00433556 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-02 14:55:57 Visamaster: [merchantTransactionID] 00433594 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-02 15:23:45 Visamaster: [merchantTransactionID] 00433616 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-02 15:57:15 Visamaster: [merchantTransactionID] 00433628 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-02 16:04:17 Visamaster: [merchantTransactionID] 00433659 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-03 11:13:44 Visamaster: [merchantTransactionID] 00433721 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-03 13:58:58 Visamaster: [merchantTransactionID] 00433778 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-03 14:08:46 Visamaster: [merchantTransactionID] 00433784 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-10 11:43:00 Visamaster: [merchantTransactionID] 00433905 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-10 14:24:21 Visamaster: [merchantTransactionID] 00433946 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-10 16:14:09 Visamaster: [merchantTransactionID] 00434122 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-16 11:22:10 Visamaster: [merchantTransactionID] 00434356 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-10-16 13:33:29 Visamaster: [merchantTransactionID] 00434421 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-16 14:25:12 Visamaster: [merchantTransactionID] 00434466 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-10-16 14:43:16 Visamaster: [merchantTransactionID] 00434484 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-10-16 16:06:17 Visamaster: [merchantTransactionID] 00434568 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-10-16 17:55:10 Visamaster: [merchantTransactionID] 00434683 [transactionStatus] APPROVED [APIResponse] Column 'POLICY_COMMENCE_DT' does not belong to table .
+2017-10-16 18:06:42 Visamaster: [merchantTransactionID] 00434715 [transactionStatus] DECLINED [APIResponse] DECLINED
+2017-10-16 18:30:15 Visamaster: [merchantTransactionID] 00434762 [transactionStatus] ERROR [APIResponse] ERROR Invalid card expiry date
+2017-10-16 18:47:06 Visamaster: [merchantTransactionID] 00434770 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-17 10:26:54 Visamaster: [merchantTransactionID] 00434893 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE
+2017-10-17 11:02:42 Visamaster: [merchantTransactionID] 00435012 [transactionStatus] APPROVED [APIResponse] SUCCESS_MESSAGE

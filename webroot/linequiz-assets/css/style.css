@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'gothambold';
+    src: url(' ../fonts/GothamBold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham';
+    src: url(' ../fonts/GothamMedium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothamcondensed';
+    src: url(' ../fonts/GothamCondensedMedium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html{
+	padding:0;
+	margin:0;
+}
+ 
+.wrapper{
+	width:auto;
+	margin:0 30px;
+	
+}
+.line-quiz .header-container{
+	text-align:center;
+	max-width:480px;
+	margin:0 auto;
+	padding:20px 0 20px;
+}
+.line-quiz .header-container  .line-logo{
+	 width:auto;
+	
+}
+.line-quiz h1{
+	font-family: 'Nunito', sans-serif;
+	/*font-size:30px;*/
+  font-size:20px;
+	color:#00a94f;
+	font-weight:bold;
+}
+.logo-cont{
+margin:10px 0 15px;
+}
+h1.winning-title{
+	  /*text-transform: uppercase;*/
+    text-align: center;
+    margin: 0;
+    background: #ececec;
+    display: block;
+    float: left;
+    width: 100%;
+    color: #00a94f;
+    padding: 20px 0;
+}
+h1.winning-title span{
+	font-size:20px
+}
+.textbold{
+	font-family:gothambold;
+	
+}
+.textmedium{
+	font-family:gotham;
+}
+.quiz-desc{
+	font-size:18px;
+	color:#58595b;
+	text-align:center;
+	
+}
+.red{
+	color:#EB1C2D;
+}
+.black{
+	color:#000;
+}
+.line-quiz .body-container{
+	max-width:480px;
+		margin:0 auto 30px;
+}
+.big-info{
+	/*font-size:24px;*/
+  font-size: 16px;
+}
+.small-info{
+	font-size:14px;
+	line-height:18px;
+}
+.quiz-desc ul{
+	/*margin:30px auto;*/
+  margin:10px auto;
+	padding:0;
+	
+}
+
+.prize-info li{
+	list-style:none;
+	background:url(../images/list-icon.png) no-repeat left 1px ;
+	padding-left:29px;	
+	text-align:left;
+	margin-bottom:10px;
+	line-height:25px;
+	font-size:16px;
+
+}
+.line-btn{
+	font-family:gothamcondensed;
+	color:#fff;
+	background:url(../images/bg-linebtn.png) repeat-x bottom left #00a94f;
+	width:auto;
+	padding:8px 50px 10px;
+	border:0;
+	font-size:18px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	display:inline-block;
+	
+	margin:20px auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.line-btn.disabled {
+  background: #ccc !important;
+}
+.line-btn-kirim{
+	font-family:gothamcondensed;
+	color:#fff;
+	background:url(../images/bg-linebtn-kirim.png) repeat-x bottom left #fdb813;
+	width:auto;
+	padding:8px 70px 10px;
+	border:0;
+	font-size:18px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	display:block;
+	margin:20px auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.form-ahliwaris{
+ 	text-align:left;
+	font-size:14px;
+	font-family:gotham;
+	margin:30px 0;
+ }
+.line-form  label{
+	font-weight:normal;
+}
+.line-form  .glyphicon-calendar:before{
+	content:" ";
+}
+.line-form  .form_date input.form-control {
+	background:#fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.line-form  .form_date  .input-group-addon{
+	padding-left:25px;
+ 		border:0;
+}
+small{
+	font-size:12px;
+	color:#999;
+}
+
+.line-form  .input-group-addon{
+	    background: url(../images/datepicker.png) no-repeat 7px 5px;
+}
+.line-form  select{
+appearance:none;
+   -moz-appearance:none; /* Firefox */
+   -webkit-appearance:none; /* Safari and Chrome */
+   background: url('../images/select-arrow.png')  no-repeat;
+   background-position: right center;
+   text-indent: 0.01px;
+   text-overflow: '';            /*Removes default arrow from firefox*/
+   background-color: #fff;
+}
+.line-form label.jeniskelamin{
+	font-size:12px;
+}
+select::-ms-expand {
+   display: none;
+}
+.radio-inline input[type=radio]{
+	margin-top:2px;
+}
+.line-quiz .footer {
+  text-align: center;
+}
+.line-quiz .why-data {
+  cursor: pointer;
+  margin: 0;
+}
+.line-quiz .why-data:hover small {
+  text-decoration: underline;
+}
+.line-quiz .why-data .q-mark {
+  background: #EB1C2D none repeat scroll 0 0;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  font-size: 11px;
+  padding: 0 4px;
+  margin: 0 0 0 5px;
+}
+.line-quiz .why-data-content {
+  display: none;
+  background: #ececec;
+  padding: 5px;
+}
+.line-quiz .line-agreement {
+  font-size: 11px;
+  text-align: left;
+}
+.line-quiz .line-agree-label {
+  font-size: 11px;
+}
+span.month, span.year {
+    width: 33.3%;
+    display: inline-block;
+    text-align: center;
+}
+.datetimepicker-months .table-condensed, .datetimepicker-years .table-condensed {
+    width: 180px;
+}
+@media screen and (max-width: 480px){
+.line-quiz .header-container  .line-logo{
+	 width:100%;
+	
+}
+
+@media screen and (max-width: 320px){
+.wrapper{
+	width:auto;
+	margin:10px;
+	
+}
+.line-quiz .header-container  .line-logo{
+	 width:100%;
+	
+}
+}
